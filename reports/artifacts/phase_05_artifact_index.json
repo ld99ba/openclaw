@@ -1,0 +1,15 @@
+{
+  "phase": "PHASE_05",
+  "artifacts": [
+    "openclaw/governance/policy_engine.py",
+    "openclaw/recovery/error_taxonomy.py",
+    "openclaw/recovery/resume_protocol.py",
+    "openclaw/execution/repair_engine.py",
+    "openclaw/policies/tool_permission_policy.yaml",
+    "openclaw/policies/repair_policy.yaml",
+    "openclaw/policies/final_seal_policy.yaml",
+    "openclaw/policies/cron_governance_policy.yaml",
+    "openclaw/policies/migration_policy.yaml",
+    "openclaw/policies/memory_skill_policy.yaml"
+  ]
+}

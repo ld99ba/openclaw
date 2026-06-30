@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OGK Policy",
+  "type": "object",
+  "required": [
+    "version",
+    "tool_risk_levels",
+    "repair_levels"
+  ]
+}

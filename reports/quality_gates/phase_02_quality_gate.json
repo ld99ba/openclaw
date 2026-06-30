@@ -1,0 +1,9 @@
+{
+  "schema": "ogk.quality_gate_result.v1",
+  "phase": "PHASE_02",
+  "status": "PASS",
+  "missing_artifacts": [],
+  "ledger_ok": true,
+  "artifact_registry_ok": true,
+  "blocking_issues": []
+}

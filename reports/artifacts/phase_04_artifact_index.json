@@ -1,0 +1,9 @@
+{
+  "phase": "PHASE_04",
+  "artifacts": [
+    "openclaw/governance/supervisor.py",
+    "openclaw/execution/worker_orchestrator.py",
+    "openclaw/execution/tool_gateway.py",
+    "openclaw/execution/sandbox_executor.py"
+  ]
+}

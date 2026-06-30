@@ -1,0 +1,9 @@
+{
+  "phase": "PHASE_02",
+  "artifacts": [
+    "openclaw/evidence/event_ledger.py",
+    "openclaw/evidence/artifact_registry.py",
+    "openclaw/evidence/replay_engine.py",
+    "reports/events/openclaw-governance-events.jsonl"
+  ]
+}

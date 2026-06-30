@@ -1,0 +1,13 @@
+{
+  "phase": "PHASE_06",
+  "artifacts": [
+    "openclaw/hermes_adapter/source_inventory.py",
+    "openclaw/hermes_adapter/capability_mapping.py",
+    "openclaw/hermes_adapter/diff_audit.py",
+    "openclaw/hermes_adapter/behavior_equivalence.py",
+    "reports/hermes_capability_coverage_matrix.json",
+    "reports/hermes_behavior_equivalence_audit.md",
+    "reports/hermes_source_inventory.json",
+    "reports/hermes_gap_audit.md"
+  ]
+}

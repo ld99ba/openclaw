@@ -1,0 +1,28 @@
+{
+  "schema": "ogk.final_seal_result.v1",
+  "status": "FINAL_SUCCESS",
+  "release_status": "RELEASE_ACCEPTED",
+  "missing_phases": [],
+  "missing_artifacts": [],
+  "ledger_ok": true,
+  "artifact_registry_ok": true,
+  "state_rebuild_ok": true,
+  "replay_result": {
+    "schema": "ogk.rebuilt_state.v1",
+    "ledger_ok": true,
+    "event_count": 173,
+    "accepted_phases": [
+      "PHASE_01",
+      "PHASE_02",
+      "PHASE_03",
+      "PHASE_04",
+      "PHASE_05",
+      "PHASE_06",
+      "PHASE_07"
+    ],
+    "final_status": "FINAL_SUCCESS",
+    "release_status": "RELEASE_ACCEPTED",
+    "artifact_registry_ok": true
+  },
+  "blocking_issues": []
+}

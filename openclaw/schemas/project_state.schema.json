@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OGK ProjectState",
+  "type": "object",
+  "required": [
+    "project_id",
+    "status",
+    "phases"
+  ],
+  "properties": {
+    "project_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "phases": {
+      "type": "object"
+    }
+  }
+}

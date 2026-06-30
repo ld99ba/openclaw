@@ -1,0 +1,10 @@
+{
+  "phase": "PHASE_01",
+  "artifacts": [
+    "openclaw/schemas/project_spec.schema.json",
+    "openclaw/schemas/project_state.schema.json",
+    "openclaw/schemas/event.schema.json",
+    "openclaw/schemas/policy.schema.json",
+    "docs/OPENCLAW_GOVERNANCE_KERNEL_FINAL.md"
+  ]
+}

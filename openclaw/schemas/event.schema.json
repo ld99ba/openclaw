@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OGK Event",
+  "type": "object",
+  "required": [
+    "event_id",
+    "event_version",
+    "project_id",
+    "timestamp",
+    "actor",
+    "event_type",
+    "phase",
+    "step",
+    "previous_event_hash",
+    "event_hash"
+  ],
+  "properties": {
+    "event_version": {
+      "const": "1.0"
+    }
+  }
+}

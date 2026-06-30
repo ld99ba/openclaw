@@ -1,0 +1,125 @@
+{
+  "schema": "ogk.hermes_source_inventory.v1",
+  "root": "research/hermes/hermes-agent",
+  "core_module_count": 14,
+  "items": [
+    {
+      "module": "agent_init",
+      "expected_path": "research/hermes/hermes-agent/agent/agent_init.py",
+      "found": true,
+      "paths": [
+        "research/hermes/hermes-agent/agent/agent_init.py"
+      ],
+      "strategy": "inventory_only_no_runtime_copy"
+    },
+    {
+      "module": "conversation_loop",
+      "expected_path": "research/hermes/hermes-agent/agent/conversation_loop.py",
+      "found": true,
+      "paths": [
+        "research/hermes/hermes-agent/agent/conversation_loop.py"
+      ],
+      "strategy": "inventory_only_no_runtime_copy"
+    },
+    {
+      "module": "tool_mapping",
+      "expected_path": "research/hermes/hermes-agent/acp_adapter/tools.py",
+      "found": true,
+      "paths": [
+        "research/hermes/hermes-agent/acp_adapter/tools.py"
+      ],
+      "strategy": "inventory_only_no_runtime_copy"
+    },
+    {
+      "module": "permission_bridge",
+      "expected_path": "research/hermes/hermes-agent/acp_adapter/permissions.py",
+      "found": true,
+      "paths": [
+        "research/hermes/hermes-agent/acp_adapter/permissions.py"
+      ],
+      "strategy": "inventory_only_no_runtime_copy"
+    },
+    {
+      "module": "error_classifier",
+      "expected_path": "research/hermes/hermes-agent/agent/error_classifier.py",
+      "found": true,
+      "paths": [
+        "research/hermes/hermes-agent/agent/error_classifier.py"
+      ],
+      "strategy": "inventory_only_no_runtime_copy"
+    },
+    {
+      "module": "memory_manager",
+      "expected_path": "research/hermes/hermes-agent/agent/memory_manager.py",
+      "found": true,
+      "paths": [
+        "research/hermes/hermes-agent/agent/memory_manager.py"
+      ],
+      "strategy": "inventory_only_no_runtime_copy"
+    },
+    {
+      "module": "context_compressor",
+      "expected_path": "research/hermes/hermes-agent/agent/context_compressor.py",
+      "found": true,
+      "paths": [
+        "research/hermes/hermes-agent/agent/context_compressor.py"
+      ],
+      "strategy": "inventory_only_no_runtime_copy"
+    },
+    {
+      "module": "skill_loop",
+      "expected_path": "research/hermes/hermes-agent/tools/skill_manager.py",
+      "found": false,
+      "paths": [],
+      "strategy": "inventory_only_no_runtime_copy"
+    },
+    {
+      "module": "dashboard",
+      "expected_path": "research/hermes/hermes-agent/hermes_dashboard.py",
+      "found": false,
+      "paths": [],
+      "strategy": "inventory_only_no_runtime_copy"
+    },
+    {
+      "module": "migration",
+      "expected_path": "research/hermes/hermes-agent/hermes_cli/migrate.py",
+      "found": true,
+      "paths": [
+        "research/hermes/hermes-agent/hermes_cli/migrate.py"
+      ],
+      "strategy": "inventory_only_no_runtime_copy"
+    },
+    {
+      "module": "acp_adapter",
+      "expected_path": "research/hermes/hermes-agent/acp_adapter/server.py",
+      "found": true,
+      "paths": [
+        "research/hermes/hermes-agent/acp_adapter/server.py"
+      ],
+      "strategy": "inventory_only_no_runtime_copy"
+    },
+    {
+      "module": "scheduled_automation",
+      "expected_path": "research/hermes/hermes-agent/cron",
+      "found": true,
+      "paths": [
+        "research/hermes/hermes-agent/cron"
+      ],
+      "strategy": "inventory_only_no_runtime_copy"
+    },
+    {
+      "module": "subagent_delegation",
+      "expected_path": "research/hermes/hermes-agent/tools/delegate_task.py",
+      "found": false,
+      "paths": [],
+      "strategy": "inventory_only_no_runtime_copy"
+    },
+    {
+      "module": "final_report_audit",
+      "expected_path": "research/hermes/hermes-agent/reports",
+      "found": false,
+      "paths": [],
+      "strategy": "inventory_only_no_runtime_copy"
+    }
+  ]
+}

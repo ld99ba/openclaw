@@ -1,0 +1,10 @@
+{
+  "phase": "PHASE_03",
+  "artifacts": [
+    "openclaw/governance/state_machine.py",
+    "openclaw/governance/quality_gate.py",
+    "openclaw/governance/issue_register.py",
+    "openclaw/schemas/quality_gate.schema.json",
+    "openclaw/schemas/issue_register.schema.json"
+  ]
+}

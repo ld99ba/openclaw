@@ -1,0 +1,276 @@
+{
+  "schema": "ogk.hermes_capability_coverage_matrix.v1",
+  "items": [
+    {
+      "hermes_module": "agent_init",
+      "hermes_source_path": [
+        "research/hermes/hermes-agent/agent/agent_init.py"
+      ],
+      "hermes_original_capability": "provider/context/tool guard setup",
+      "openclaw_corresponding_capability": "OpenClaw native runtime config",
+      "fusion_strategy": "reference_only",
+      "migrated": false,
+      "rewritten": false,
+      "reference_only": true,
+      "abandoned": false,
+      "gap": "no runtime copy; OpenClaw-native adaptation",
+      "evidence": [
+        "research/hermes/hermes-agent/agent/agent_init.py"
+      ],
+      "test_method": "inventory + policy/state/final-seal contract tests",
+      "acceptance_conclusion": "do_not_copy"
+    },
+    {
+      "hermes_module": "conversation_loop",
+      "hermes_source_path": [
+        "research/hermes/hermes-agent/agent/conversation_loop.py"
+      ],
+      "hermes_original_capability": "model/tool/retry/post-hook loop",
+      "openclaw_corresponding_capability": "OpenClaw session/tool runtime + Supervisor",
+      "fusion_strategy": "rewrite_adapt",
+      "migrated": true,
+      "rewritten": true,
+      "reference_only": false,
+      "abandoned": false,
+      "gap": "no runtime copy; OpenClaw-native adaptation",
+      "evidence": [
+        "research/hermes/hermes-agent/agent/conversation_loop.py"
+      ],
+      "test_method": "inventory + policy/state/final-seal contract tests",
+      "acceptance_conclusion": "partial"
+    },
+    {
+      "hermes_module": "tool_mapping",
+      "hermes_source_path": [
+        "research/hermes/hermes-agent/acp_adapter/tools.py"
+      ],
+      "hermes_original_capability": "ACP ToolKind mapping",
+      "openclaw_corresponding_capability": "ToolGateway risk taxonomy",
+      "fusion_strategy": "rewrite_adapt",
+      "migrated": true,
+      "rewritten": true,
+      "reference_only": false,
+      "abandoned": false,
+      "gap": "no runtime copy; OpenClaw-native adaptation",
+      "evidence": [
+        "research/hermes/hermes-agent/acp_adapter/tools.py"
+      ],
+      "test_method": "inventory + policy/state/final-seal contract tests",
+      "acceptance_conclusion": "accepted"
+    },
+    {
+      "hermes_module": "permission_bridge",
+      "hermes_source_path": [
+        "research/hermes/hermes-agent/acp_adapter/permissions.py"
+      ],
+      "hermes_original_capability": "allow_once/session/always/deny",
+      "openclaw_corresponding_capability": "OpenClaw approval preserved",
+      "fusion_strategy": "reference_only",
+      "migrated": false,
+      "rewritten": false,
+      "reference_only": true,
+      "abandoned": false,
+      "gap": "no runtime copy; OpenClaw-native adaptation",
+      "evidence": [
+        "research/hermes/hermes-agent/acp_adapter/permissions.py"
+      ],
+      "test_method": "inventory + policy/state/final-seal contract tests",
+      "acceptance_conclusion": "accepted"
+    },
+    {
+      "hermes_module": "error_classifier",
+      "hermes_source_path": [
+        "research/hermes/hermes-agent/agent/error_classifier.py"
+      ],
+      "hermes_original_capability": "API failover taxonomy",
+      "openclaw_corresponding_capability": "ErrorTaxonomy",
+      "fusion_strategy": "rewrite_adapt",
+      "migrated": true,
+      "rewritten": true,
+      "reference_only": false,
+      "abandoned": false,
+      "gap": "no runtime copy; OpenClaw-native adaptation",
+      "evidence": [
+        "research/hermes/hermes-agent/agent/error_classifier.py"
+      ],
+      "test_method": "inventory + policy/state/final-seal contract tests",
+      "acceptance_conclusion": "accepted"
+    },
+    {
+      "hermes_module": "memory_manager",
+      "hermes_source_path": [
+        "research/hermes/hermes-agent/agent/memory_manager.py"
+      ],
+      "hermes_original_capability": "memory context and recall",
+      "openclaw_corresponding_capability": "MemoryLifecycle",
+      "fusion_strategy": "rewrite_adapt",
+      "migrated": true,
+      "rewritten": true,
+      "reference_only": false,
+      "abandoned": false,
+      "gap": "no runtime copy; OpenClaw-native adaptation",
+      "evidence": [
+        "research/hermes/hermes-agent/agent/memory_manager.py"
+      ],
+      "test_method": "inventory + policy/state/final-seal contract tests",
+      "acceptance_conclusion": "accepted"
+    },
+    {
+      "hermes_module": "context_compressor",
+      "hermes_source_path": [
+        "research/hermes/hermes-agent/agent/context_compressor.py"
+      ],
+      "hermes_original_capability": "context compression",
+      "openclaw_corresponding_capability": "OpenClaw context/memory policy",
+      "fusion_strategy": "reference_only",
+      "migrated": false,
+      "rewritten": false,
+      "reference_only": true,
+      "abandoned": false,
+      "gap": "no runtime copy; OpenClaw-native adaptation",
+      "evidence": [
+        "research/hermes/hermes-agent/agent/context_compressor.py"
+      ],
+      "test_method": "inventory + policy/state/final-seal contract tests",
+      "acceptance_conclusion": "partial"
+    },
+    {
+      "hermes_module": "skill_loop",
+      "hermes_source_path": [
+        "research/hermes/hermes-agent/tools/skill_manager.py"
+      ],
+      "hermes_original_capability": "skill self-improvement",
+      "openclaw_corresponding_capability": "SkillLifecycle",
+      "fusion_strategy": "rewrite_adapt",
+      "migrated": true,
+      "rewritten": true,
+      "reference_only": false,
+      "abandoned": false,
+      "gap": "source missing or behavior needs deeper tests",
+      "evidence": [
+        "research/hermes/hermes-agent/tools/skill_manager.py"
+      ],
+      "test_method": "inventory + policy/state/final-seal contract tests",
+      "acceptance_conclusion": "accepted"
+    },
+    {
+      "hermes_module": "dashboard",
+      "hermes_source_path": [
+        "research/hermes/hermes-agent/hermes_dashboard.py"
+      ],
+      "hermes_original_capability": "observability",
+      "openclaw_corresponding_capability": "DashboardExporter",
+      "fusion_strategy": "rewrite_adapt",
+      "migrated": true,
+      "rewritten": true,
+      "reference_only": false,
+      "abandoned": false,
+      "gap": "source missing or behavior needs deeper tests",
+      "evidence": [
+        "research/hermes/hermes-agent/hermes_dashboard.py"
+      ],
+      "test_method": "inventory + policy/state/final-seal contract tests",
+      "acceptance_conclusion": "accepted"
+    },
+    {
+      "hermes_module": "migration",
+      "hermes_source_path": [
+        "research/hermes/hermes-agent/hermes_cli/migrate.py"
+      ],
+      "hermes_original_capability": "claw migrate",
+      "openclaw_corresponding_capability": "MigrationAdapter dry-run only",
+      "fusion_strategy": "rewrite_adapt",
+      "migrated": true,
+      "rewritten": true,
+      "reference_only": false,
+      "abandoned": false,
+      "gap": "no runtime copy; OpenClaw-native adaptation",
+      "evidence": [
+        "research/hermes/hermes-agent/hermes_cli/migrate.py"
+      ],
+      "test_method": "inventory + policy/state/final-seal contract tests",
+      "acceptance_conclusion": "partial"
+    },
+    {
+      "hermes_module": "acp_adapter",
+      "hermes_source_path": [
+        "research/hermes/hermes-agent/acp_adapter/server.py"
+      ],
+      "hermes_original_capability": "protocol bridge",
+      "openclaw_corresponding_capability": "OpenClaw native tools/approval",
+      "fusion_strategy": "reference_only",
+      "migrated": false,
+      "rewritten": false,
+      "reference_only": true,
+      "abandoned": false,
+      "gap": "no runtime copy; OpenClaw-native adaptation",
+      "evidence": [
+        "research/hermes/hermes-agent/acp_adapter/server.py"
+      ],
+      "test_method": "inventory + policy/state/final-seal contract tests",
+      "acceptance_conclusion": "partial"
+    },
+    {
+      "hermes_module": "scheduled_automation",
+      "hermes_source_path": [
+        "research/hermes/hermes-agent/cron"
+      ],
+      "hermes_original_capability": "cron automations",
+      "openclaw_corresponding_capability": "state-driven governance",
+      "fusion_strategy": "rewrite_adapt",
+      "migrated": true,
+      "rewritten": true,
+      "reference_only": false,
+      "abandoned": false,
+      "gap": "no runtime copy; OpenClaw-native adaptation",
+      "evidence": [
+        "research/hermes/hermes-agent/cron"
+      ],
+      "test_method": "inventory + policy/state/final-seal contract tests",
+      "acceptance_conclusion": "accepted"
+    },
+    {
+      "hermes_module": "subagent_delegation",
+      "hermes_source_path": [
+        "research/hermes/hermes-agent/tools/delegate_task.py"
+      ],
+      "hermes_original_capability": "delegation",
+      "openclaw_corresponding_capability": "OpenClaw sessions/subagents",
+      "fusion_strategy": "already_stronger",
+      "migrated": true,
+      "rewritten": false,
+      "reference_only": false,
+      "abandoned": false,
+      "gap": "source missing or behavior needs deeper tests",
+      "evidence": [
+        "research/hermes/hermes-agent/tools/delegate_task.py"
+      ],
+      "test_method": "inventory + policy/state/final-seal contract tests",
+      "acceptance_conclusion": "accepted"
+    },
+    {
+      "hermes_module": "final_report_audit",
+      "hermes_source_path": [
+        "research/hermes/hermes-agent/reports"
+      ],
+      "hermes_original_capability": "final reports",
+      "openclaw_corresponding_capability": "FinalSeal + artifact registry",
+      "fusion_strategy": "enhanced",
+      "migrated": true,
+      "rewritten": true,
+      "reference_only": false,
+      "abandoned": false,
+      "gap": "source missing or behavior needs deeper tests",
+      "evidence": [
+        "research/hermes/hermes-agent/reports"
+      ],
+      "test_method": "inventory + policy/state/final-seal contract tests",
+      "acceptance_conclusion": "accepted"
+    }
+  ],
+  "coverage": {
+    "total": 14,
+    "accepted": 9,
+    "registered_percent": 100.0
+  }
+}

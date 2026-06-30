@@ -1,0 +1,5 @@
+version: OGK-Final-1.0
+policy: migration_policy
+default: safe_by_policy
+forbid_destructive_without_authorization: true
+forbid_secret_output: true

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OGK ProjectSpec",
+  "type": "object",
+  "required": [
+    "project_id",
+    "version",
+    "phases"
+  ],
+  "properties": {
+    "project_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "phases": {
+      "type": "array"
+    }
+  }
+}

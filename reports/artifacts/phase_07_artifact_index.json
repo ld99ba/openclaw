@@ -1,0 +1,15 @@
+{
+  "phase": "PHASE_07",
+  "artifacts": [
+    "openclaw/governance/final_seal.py",
+    "openclaw/evidence/dashboard_exporter.py",
+    "openclaw/intelligence/memory_lifecycle.py",
+    "openclaw/intelligence/skill_lifecycle.py",
+    "openclaw/intelligence/learning_policy.py",
+    "docs/OPENCLAW_MEMORY_SKILL_GOVERNANCE.md",
+    "reports/final/OPENCLAW_FINAL_ACCEPTANCE_REPORT.md",
+    "reports/final/OPENCLAW_FINAL_AUDIT_REPORT.md",
+    "reports/final/OPENCLAW_RELEASE_ARTIFACT_INDEX.md",
+    "reports/final/OPENCLAW_FINAL_PROGRESS_SUMMARY.md"
+  ]
+}
