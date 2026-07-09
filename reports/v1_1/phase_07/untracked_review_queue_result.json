@@ -8,7 +8,7 @@
     "local_knowledge_or_memory_state": 1328,
     "media_or_binary_artifact": 51,
     "root_misc_review": 6876,
-    "source_surface_candidate": 16
+    "source_surface_candidate": 6
   },
   "bucket_recommendations": {
     "baseline_evidence_preserve": "preserve as V1.0 baseline evidence; do not include in V1.1 hardening manifests automatically",
@@ -223,16 +223,6 @@
       "research/hermes/hermes-agent/RELEASE_v0.8.0.md"
     ],
     "source_surface_candidate": [
-      "openclaw/__init__.py",
-      "openclaw/evidence/__init__.py",
-      "openclaw/execution/__init__.py",
-      "openclaw/governance/__init__.py",
-      "openclaw/governance/project_spec.json",
-      "openclaw/hermes_adapter/__init__.py",
-      "openclaw/hermes_adapter/__main__.py",
-      "openclaw/intelligence/__init__.py",
-      "openclaw/policies/policy.json",
-      "openclaw/recovery/__init__.py",
       "policies/cron_governance_policy.yaml",
       "policies/final_seal_policy.yaml",
       "policies/memory_skill_policy.yaml",
@@ -247,20 +237,10 @@
   "git_stage_executed": false,
   "manual_review_required": true,
   "ok": true,
-  "review_queue_count": 19163,
+  "review_queue_count": 19153,
   "schema": "ogk.v1_1.untracked_review_queue.v1",
-  "source_candidate_count": 16,
+  "source_candidate_count": 6,
   "source_candidate_samples": [
-    "openclaw/__init__.py",
-    "openclaw/evidence/__init__.py",
-    "openclaw/execution/__init__.py",
-    "openclaw/governance/__init__.py",
-    "openclaw/governance/project_spec.json",
-    "openclaw/hermes_adapter/__init__.py",
-    "openclaw/hermes_adapter/__main__.py",
-    "openclaw/intelligence/__init__.py",
-    "openclaw/policies/policy.json",
-    "openclaw/recovery/__init__.py",
     "policies/cron_governance_policy.yaml",
     "policies/final_seal_policy.yaml",
     "policies/memory_skill_policy.yaml",
@@ -268,7 +248,7 @@
     "policies/repair_policy.yaml",
     "policies/tool_permission_policy.yaml"
   ],
-  "top_level_candidate_count": 44,
+  "top_level_candidate_count": 43,
   "top_level_candidate_samples": [
     "03_tasks",
     "10_release",
@@ -286,7 +266,6 @@
     "feedback",
     "memory",
     "memory_db",
-    "openclaw",
     "papers",
     "plugins",
     "policies",
@@ -315,16 +294,10 @@
     "网络深度学习最终报告.md",
     "网络金融知识深度学习报告.md"
   ],
-  "untracked_count": 19171,
-  "v1_1_release_candidate_excluded_count": 8,
+  "untracked_count": 19155,
+  "v1_1_release_candidate_excluded_count": 2,
   "v1_1_release_candidate_excluded_samples": [
-    "docs/plans/2026-07-09-ogk-final-v1-1-phase-11-implementation-plan.md",
     "reports/v1_1/phase_01/.gitkeep",
-    "reports/v1_1/phase_11/PHASE_11_SUMMARY.md",
-    "reports/v1_1/phase_11/source_inclusion_approval_gate_report.md",
-    "reports/v1_1/phase_11/source_inclusion_approval_gate_result.json",
-    "tests/v1_1/.gitkeep",
-    "tests/v1_1/test_source_inclusion_approval_gate.py",
-    "tools/verify_v1_1_source_inclusion_approval_gate.py"
+    "tests/v1_1/.gitkeep"
   ]
 }

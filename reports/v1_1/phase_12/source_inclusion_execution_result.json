@@ -1,0 +1,36 @@
+{
+  "approval_granted": true,
+  "approval_phrase_matched": true,
+  "approved_pathspec": [
+    "openclaw/__init__.py",
+    "openclaw/evidence/__init__.py",
+    "openclaw/execution/__init__.py",
+    "openclaw/governance/__init__.py",
+    "openclaw/governance/project_spec.json",
+    "openclaw/hermes_adapter/__init__.py",
+    "openclaw/hermes_adapter/__main__.py",
+    "openclaw/intelligence/__init__.py",
+    "openclaw/policies/policy.json",
+    "openclaw/recovery/__init__.py"
+  ],
+  "approved_pathspec_count": 10,
+  "destructive_action_taken": false,
+  "excluded_pathspec": [
+    "policies/cron_governance_policy.yaml",
+    "policies/final_seal_policy.yaml",
+    "policies/memory_skill_policy.yaml",
+    "policies/migration_policy.yaml",
+    "policies/repair_policy.yaml",
+    "policies/tool_permission_policy.yaml"
+  ],
+  "excluded_pathspec_count": 6,
+  "files_moved_or_deleted": false,
+  "forbidden_root_policy_paths": [],
+  "git_commit_executed_by_tool": false,
+  "git_stage_executed_by_tool": false,
+  "missing_approved_paths": [],
+  "ok": true,
+  "preflight_blocking_issue_count": 0,
+  "preflight_warning_count": 3,
+  "schema": "ogk.v1_1.source_inclusion_execution.v1"
+}

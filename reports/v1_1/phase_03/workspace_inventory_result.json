@@ -2,9 +2,9 @@
   "category_counts": {
     "historical_report_or_runtime_evidence": 9831,
     "local_control_or_hidden_state": 65,
-    "unknown_review_required": 9258,
+    "unknown_review_required": 9248,
     "v1_0_baseline_preserve": 9,
-    "v1_1_release_candidate": 8
+    "v1_1_release_candidate": 2
   },
   "category_samples": {
     "historical_report_or_runtime_evidence": [
@@ -85,14 +85,8 @@
       "reports/final/resume_state_rebuild.json"
     ],
     "v1_1_release_candidate": [
-      "docs/plans/2026-07-09-ogk-final-v1-1-phase-11-implementation-plan.md",
       "reports/v1_1/phase_01/.gitkeep",
-      "reports/v1_1/phase_11/PHASE_11_SUMMARY.md",
-      "reports/v1_1/phase_11/source_inclusion_approval_gate_report.md",
-      "reports/v1_1/phase_11/source_inclusion_approval_gate_result.json",
-      "tests/v1_1/.gitkeep",
-      "tests/v1_1/test_source_inclusion_approval_gate.py",
-      "tools/verify_v1_1_source_inclusion_approval_gate.py"
+      "tests/v1_1/.gitkeep"
     ]
   },
   "destructive_action_taken": false,
@@ -105,5 +99,5 @@
   },
   "ok": true,
   "schema": "ogk.v1_1.workspace_inventory.v1",
-  "untracked_count": 19171
+  "untracked_count": 19155
 }

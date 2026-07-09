@@ -1,0 +1,1 @@
+"""OGK recovery plane."""

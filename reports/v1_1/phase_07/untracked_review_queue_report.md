@@ -1,10 +1,10 @@
 # V1.1 Phase 07 Untracked Review Queue
 
 Status: PASS
-Untracked paths: 19171
-Review queue paths: 19163
-V1.1 release candidates excluded: 8
-Source candidates: 16
+Untracked paths: 19155
+Review queue paths: 19153
+V1.1 release candidates excluded: 2
+Source candidates: 6
 Manual review required: `True`
 Git staging executed: `False`
 Destructive action taken: `False`
@@ -21,7 +21,7 @@ Destructive action taken: `False`
 | local_knowledge_or_memory_state | 1328 | preserve locally; do not publish without privacy review | daily-review/2026-05-20.md, daily-review/2026-05-22.md, daily-review/2026-05-23.md, daily-review/2026-05-24.md, daily-review/README.md |
 | media_or_binary_artifact | 51 | review purpose and size before any inclusion | quant_screenshot_1.png, quant_screenshot_2.png, research/hermes/hermes-agent/apps/bootstrap-installer/src-tauri/icons/128x128.png, research/hermes/hermes-agent/apps/bootstrap-installer/src-tauri/icons/128x128@2x.png, research/hermes/hermes-agent/apps/bootstrap-installer/src-tauri/icons/32x32.png |
 | root_misc_review | 6876 | requires owner review before staging | 120B, 3.2K, 677B, deploy_xlx_system_final_viz.py, research/hermes/hermes-agent/AGENTS.md |
-| source_surface_candidate | 16 | review for a dedicated source inclusion ADR before staging | openclaw/__init__.py, openclaw/evidence/__init__.py, openclaw/execution/__init__.py, openclaw/governance/__init__.py, openclaw/governance/project_spec.json |
+| source_surface_candidate | 6 | review for a dedicated source inclusion ADR before staging | policies/cron_governance_policy.yaml, policies/final_seal_policy.yaml, policies/memory_skill_policy.yaml, policies/migration_policy.yaml, policies/repair_policy.yaml |
 
 ## Top-Level Candidates
 
@@ -41,7 +41,6 @@ Destructive action taken: `False`
 - `feedback`
 - `memory`
 - `memory_db`
-- `openclaw`
 - `papers`
 - `plugins`
 - `policies`
@@ -72,16 +71,6 @@ Destructive action taken: `False`
 
 ## Source Candidate Samples
 
-- `openclaw/__init__.py`
-- `openclaw/evidence/__init__.py`
-- `openclaw/execution/__init__.py`
-- `openclaw/governance/__init__.py`
-- `openclaw/governance/project_spec.json`
-- `openclaw/hermes_adapter/__init__.py`
-- `openclaw/hermes_adapter/__main__.py`
-- `openclaw/intelligence/__init__.py`
-- `openclaw/policies/policy.json`
-- `openclaw/recovery/__init__.py`
 - `policies/cron_governance_policy.yaml`
 - `policies/final_seal_policy.yaml`
 - `policies/memory_skill_policy.yaml`
