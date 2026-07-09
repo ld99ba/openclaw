@@ -30,6 +30,7 @@ REQUIRED_STATIC_PATHS = [
     "docs/plans/2026-07-09-ogk-final-v1-1-phase-10-implementation-plan.md",
     "docs/plans/2026-07-09-ogk-final-v1-1-phase-11-implementation-plan.md",
     "docs/plans/2026-07-09-ogk-final-v1-1-phase-12-implementation-plan.md",
+    "docs/plans/2026-07-09-ogk-final-v1-1-phase-13-implementation-plan.md",
     "openclaw/__init__.py",
     "openclaw/evidence/__init__.py",
     "openclaw/execution/__init__.py",
@@ -58,6 +59,7 @@ REQUIRED_STATIC_PATHS = [
     "tools/verify_v1_1_source_inclusion_preflight.py",
     "tools/verify_v1_1_source_inclusion_approval_gate.py",
     "tools/verify_v1_1_source_inclusion_execution.py",
+    "tools/verify_v1_1_root_policy_shadow_disposition.py",
     "reports/v1_1/phase_01/PHASE_01_SUMMARY.md",
     "reports/v1_1/phase_02/PHASE_02_SUMMARY.md",
     "reports/v1_1/phase_03/PHASE_03_SUMMARY.md",
@@ -96,6 +98,9 @@ REQUIRED_STATIC_PATHS = [
     "reports/v1_1/phase_12/PHASE_12_SUMMARY.md",
     "reports/v1_1/phase_12/source_inclusion_execution_report.md",
     "reports/v1_1/phase_12/source_inclusion_execution_result.json",
+    "reports/v1_1/phase_13/PHASE_13_SUMMARY.md",
+    "reports/v1_1/phase_13/root_policy_shadow_disposition_report.md",
+    "reports/v1_1/phase_13/root_policy_shadow_disposition_result.json",
 ]
 
 
