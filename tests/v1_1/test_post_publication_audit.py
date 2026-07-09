@@ -53,11 +53,29 @@ def test_post_publication_audit_records_published_release(tmp_path: Path) -> Non
     assert result["ok"] is True
     assert result["release_publication_performed"] is True
     assert result["release_tag_target_matches_target_branch_head"] is True
+    assert result["release_tag_target_is_target_branch_ancestor"] is True
     assert result["existing_tag_unchanged"] is True
     assert result["tag_move_performed_on_existing_v1_1_tag"] is False
     assert result["pull_request_created"] is False
     assert (tmp_path / "post_publication_audit_result.json").exists()
     assert (tmp_path / "post_publication_audit_report.md").exists()
+
+
+def test_post_publication_audit_accepts_release_tag_ancestor_after_audit_commit(tmp_path: Path) -> None:
+    result = build_post_publication_audit(
+        execution_packet_result=execution_packet(),
+        output_dir=tmp_path,
+        release_info=release_info(),
+        release_tag_target="release123",
+        release_tag_is_ancestor_of_branch=True,
+        existing_tag_target="oldtag123",
+        branch_head="auditcommit456",
+    )
+
+    assert result["ok"] is True
+    assert result["release_tag_target_matches_target_branch_head"] is False
+    assert result["release_tag_target_is_target_branch_ancestor"] is True
+    assert "release_tag_target_not_reachable_from_hardening_branch" not in result["failures"]
 
 
 def test_post_publication_audit_fails_when_release_missing(tmp_path: Path) -> None:

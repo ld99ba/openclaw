@@ -30,6 +30,21 @@ def git_output(args: list[str]) -> str:
     return command_output(["git", *args])
 
 
+def git_is_ancestor(ancestor: str, descendant: str) -> bool:
+    if not ancestor or not descendant:
+        return False
+    try:
+        result = subprocess.run(
+            ["git", "merge-base", "--is-ancestor", ancestor, descendant],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+            check=False,
+        )
+    except FileNotFoundError:
+        return False
+    return result.returncode == 0
+
+
 def gh_release_info(tag: str) -> dict[str, Any]:
     output = command_output(
         [
@@ -71,6 +86,7 @@ def build_post_publication_audit(
     output_dir: str | Path = DEFAULT_OUTPUT_DIR,
     release_info: dict[str, Any] | None = None,
     release_tag_target: str | None = None,
+    release_tag_is_ancestor_of_branch: bool | None = None,
     existing_tag_target: str | None = None,
     branch_head: str | None = None,
     release_tag: str = RELEASE_TAG,
@@ -96,6 +112,11 @@ def build_post_publication_audit(
     release_tag_matches = info.get("tagName") == release_tag
     release_is_published = release_exists and info.get("isDraft") is False and info.get("isPrerelease") is False
     release_tag_matches_branch = bool(tag_target) and tag_target == remote_branch_head
+    release_tag_is_branch_ancestor = release_tag_matches_branch
+    if release_tag_is_ancestor_of_branch is not None:
+        release_tag_is_branch_ancestor = release_tag_is_ancestor_of_branch
+    elif not release_tag_matches_branch and tag_target and remote_branch_head:
+        release_tag_is_branch_ancestor = git_is_ancestor(tag_target, remote_branch_head)
     existing_tag_unchanged = bool(old_tag_target) and old_tag_target == expected_existing_tag_target
 
     if not release_exists:
@@ -104,8 +125,8 @@ def build_post_publication_audit(
         failures.append("github_release_tag_mismatch")
     if not release_is_published:
         failures.append("github_release_not_published")
-    if not release_tag_matches_branch:
-        failures.append("release_tag_target_does_not_match_hardening_branch")
+    if not release_tag_is_branch_ancestor:
+        failures.append("release_tag_target_not_reachable_from_hardening_branch")
     if not existing_tag_unchanged:
         failures.append("existing_v1_1_tag_target_changed")
 
@@ -124,6 +145,8 @@ def build_post_publication_audit(
         "target_branch": target_branch,
         "target_branch_head": remote_branch_head,
         "release_tag_target_matches_target_branch_head": release_tag_matches_branch,
+        "release_tag_target_is_target_branch_ancestor": release_tag_is_branch_ancestor,
+        "release_tag_target_reachable_from_target_branch": release_tag_is_branch_ancestor,
         "existing_tag": existing_tag,
         "existing_tag_target": old_tag_target,
         "expected_existing_tag_target": expected_existing_tag_target,
@@ -163,6 +186,7 @@ def write_report(output: Path, result: dict[str, Any]) -> None:
         f"Release tag target: `{result['release_tag_target']}`",
         f"Target branch head: `{result['target_branch_head']}`",
         f"Release tag target matches branch head: `{result['release_tag_target_matches_target_branch_head']}`",
+        f"Release tag target is branch ancestor: `{result['release_tag_target_is_target_branch_ancestor']}`",
         f"Existing V1.1 tag target: `{result['existing_tag_target']}`",
         f"Existing V1.1 tag unchanged: `{result['existing_tag_unchanged']}`",
         f"Existing V1.1 tag moved: `{result['tag_move_performed_on_existing_v1_1_tag']}`",
@@ -205,6 +229,9 @@ def main() -> int:
         "release_url": result["release_url"],
         "release_tag_target_matches_target_branch_head": result[
             "release_tag_target_matches_target_branch_head"
+        ],
+        "release_tag_target_is_target_branch_ancestor": result[
+            "release_tag_target_is_target_branch_ancestor"
         ],
         "existing_tag_unchanged": result["existing_tag_unchanged"],
         "failure_count": result["failure_count"],

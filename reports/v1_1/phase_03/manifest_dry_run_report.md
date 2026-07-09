@@ -1,7 +1,7 @@
 # V1.1 Phase 03 Manifest Dry Run
 
 Status: PASS
-Manifest paths: 153
+Manifest paths: 160
 Missing paths: 0
 Forbidden paths: 0
 Git staging executed: False
@@ -29,6 +29,7 @@ Git staging executed: False
 | docs/plans/2026-07-09-ogk-final-v1-1-phase-17-implementation-plan.md |
 | docs/plans/2026-07-09-ogk-final-v1-1-phase-18-implementation-plan.md |
 | docs/plans/2026-07-10-ogk-final-v1-1-phase-19-implementation-plan.md |
+| docs/plans/2026-07-10-ogk-final-v1-1-phase-20-implementation-plan.md |
 | openclaw/__init__.py |
 | openclaw/evidence/__init__.py |
 | openclaw/execution/__init__.py |
@@ -110,6 +111,10 @@ Git staging executed: False
 | reports/v1_1/phase_19/PHASE_19_SUMMARY.md |
 | reports/v1_1/phase_19/post_publication_audit_report.md |
 | reports/v1_1/phase_19/post_publication_audit_result.json |
+| reports/v1_1/phase_20/PHASE_20_SUMMARY.md |
+| reports/v1_1/phase_20/RELEASE_CLOSURE_PACKET.md |
+| reports/v1_1/phase_20/release_closure_packet_report.md |
+| reports/v1_1/phase_20/release_closure_packet_result.json |
 | tests/v1_1/test_artifact_registry_hash_verifier.py |
 | tests/v1_1/test_eventledger_replay_verifier.py |
 | tests/v1_1/test_gitignore_hygiene.py |
@@ -120,6 +125,7 @@ Git staging executed: False
 | tests/v1_1/test_post_publication_audit.py |
 | tests/v1_1/test_publication_target_refresh.py |
 | tests/v1_1/test_recovery_boundaries.py |
+| tests/v1_1/test_release_closure_packet.py |
 | tests/v1_1/test_release_execution_packet.py |
 | tests/v1_1/test_release_publication_approval_gate.py |
 | tests/v1_1/test_release_publication_package.py |
@@ -137,6 +143,7 @@ Git staging executed: False
 | tests/v1_1/test_workspace_hygiene_proposal.py |
 | tests/v1_1/test_workspace_inventory_and_manifest.py |
 | tools/assess_v1_1_source_candidates.py |
+| tools/build_v1_1_release_closure_packet.py |
 | tools/build_v1_1_release_execution_packet.py |
 | tools/build_v1_1_release_publication_package.py |
 | tools/classify_v1_1_workspace_inventory.py |
