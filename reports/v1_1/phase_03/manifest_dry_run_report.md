@@ -1,7 +1,7 @@
 # V1.1 Phase 03 Manifest Dry Run
 
 Status: PASS
-Manifest paths: 134
+Manifest paths: 140
 Missing paths: 0
 Forbidden paths: 0
 Git staging executed: False
@@ -26,6 +26,7 @@ Git staging executed: False
 | docs/plans/2026-07-09-ogk-final-v1-1-phase-14-implementation-plan.md |
 | docs/plans/2026-07-09-ogk-final-v1-1-phase-15-implementation-plan.md |
 | docs/plans/2026-07-09-ogk-final-v1-1-phase-16-implementation-plan.md |
+| docs/plans/2026-07-09-ogk-final-v1-1-phase-17-implementation-plan.md |
 | openclaw/__init__.py |
 | openclaw/evidence/__init__.py |
 | openclaw/execution/__init__.py |
@@ -97,6 +98,9 @@ Git staging executed: False
 | reports/v1_1/phase_16/RELEASE_NOTES_DRAFT.md |
 | reports/v1_1/phase_16/release_publication_package_report.md |
 | reports/v1_1/phase_16/release_publication_package_result.json |
+| reports/v1_1/phase_17/PHASE_17_SUMMARY.md |
+| reports/v1_1/phase_17/publication_target_refresh_report.md |
+| reports/v1_1/phase_17/publication_target_refresh_result.json |
 | tests/v1_1/test_artifact_registry_hash_verifier.py |
 | tests/v1_1/test_eventledger_replay_verifier.py |
 | tests/v1_1/test_gitignore_hygiene.py |
@@ -104,6 +108,7 @@ Git staging executed: False
 | tests/v1_1/test_main_governance_boundary.py |
 | tests/v1_1/test_memory_skill_lifecycle.py |
 | tests/v1_1/test_policy_engine_permissions.py |
+| tests/v1_1/test_publication_target_refresh.py |
 | tests/v1_1/test_recovery_boundaries.py |
 | tests/v1_1/test_release_publication_approval_gate.py |
 | tests/v1_1/test_release_publication_package.py |
@@ -136,6 +141,7 @@ Git staging executed: False
 | tools/verify_v1_1_final_acceptance.py |
 | tools/verify_v1_1_gitignore_hygiene.py |
 | tools/verify_v1_1_manifest_dry_run.py |
+| tools/verify_v1_1_publication_target_refresh.py |
 | tools/verify_v1_1_release_publication_approval_gate.py |
 | tools/verify_v1_1_release_readiness_gate.py |
 | tools/verify_v1_1_root_policy_shadow_disposition.py |
