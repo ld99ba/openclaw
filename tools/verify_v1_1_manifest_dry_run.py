@@ -26,6 +26,7 @@ REQUIRED_STATIC_PATHS = [
     "docs/plans/2026-07-09-ogk-final-v1-1-phase-06-implementation-plan.md",
     "docs/plans/2026-07-09-ogk-final-v1-1-phase-07-implementation-plan.md",
     "docs/plans/2026-07-09-ogk-final-v1-1-phase-08-implementation-plan.md",
+    "docs/plans/2026-07-09-ogk-final-v1-1-phase-09-implementation-plan.md",
     "tools/verify_eventledger_replay.py",
     "tools/verify_artifact_registry_hashes.py",
     "tools/verify_recovery_boundaries.py",
@@ -40,6 +41,7 @@ REQUIRED_STATIC_PATHS = [
     "tools/verify_v1_1_gitignore_hygiene.py",
     "tools/triage_v1_1_untracked_review_queue.py",
     "tools/assess_v1_1_source_candidates.py",
+    "tools/plan_v1_1_source_candidate_inclusion.py",
     "reports/v1_1/phase_01/PHASE_01_SUMMARY.md",
     "reports/v1_1/phase_02/PHASE_02_SUMMARY.md",
     "reports/v1_1/phase_03/PHASE_03_SUMMARY.md",
@@ -66,6 +68,9 @@ REQUIRED_STATIC_PATHS = [
     "reports/v1_1/phase_08/PHASE_08_SUMMARY.md",
     "reports/v1_1/phase_08/source_candidate_assessment_report.md",
     "reports/v1_1/phase_08/source_candidate_assessment_result.json",
+    "reports/v1_1/phase_09/PHASE_09_SUMMARY.md",
+    "reports/v1_1/phase_09/source_candidate_inclusion_decision_report.md",
+    "reports/v1_1/phase_09/source_candidate_inclusion_decision_result.json",
 ]
 
 
