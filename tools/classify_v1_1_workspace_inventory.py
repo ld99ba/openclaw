@@ -32,7 +32,12 @@ def classify_path(path: str) -> str:
         return "v1_1_release_candidate"
     if path.startswith("reports/v1_1/"):
         return "v1_1_release_candidate"
-    if path.startswith("tools/verify_") or path.startswith("tools/classify_v1_1_"):
+    if (
+        path.startswith("tools/verify_")
+        or path.startswith("tools/classify_v1_1_")
+        or path.startswith("tools/propose_v1_1_")
+        or path.startswith("tools/triage_v1_1_")
+    ):
         return "v1_1_release_candidate"
     if path.startswith("reports/final/"):
         return "v1_0_baseline_preserve"

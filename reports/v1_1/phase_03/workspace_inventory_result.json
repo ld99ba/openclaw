@@ -1,6 +1,6 @@
 {
   "category_counts": {
-    "historical_report_or_runtime_evidence": 9832,
+    "historical_report_or_runtime_evidence": 9831,
     "local_control_or_hidden_state": 65,
     "unknown_review_required": 9245,
     "v1_0_baseline_preserve": 9,
@@ -85,14 +85,14 @@
       "reports/final/resume_state_rebuild.json"
     ],
     "v1_1_release_candidate": [
-      "docs/plans/2026-07-09-ogk-final-v1-1-phase-06-implementation-plan.md",
+      "docs/plans/2026-07-09-ogk-final-v1-1-phase-07-implementation-plan.md",
       "reports/v1_1/phase_01/.gitkeep",
-      "reports/v1_1/phase_06/PHASE_06_SUMMARY.md",
-      "reports/v1_1/phase_06/gitignore_hygiene_report.md",
-      "reports/v1_1/phase_06/gitignore_hygiene_result.json",
+      "reports/v1_1/phase_07/PHASE_07_SUMMARY.md",
+      "reports/v1_1/phase_07/untracked_review_queue_report.md",
+      "reports/v1_1/phase_07/untracked_review_queue_result.json",
       "tests/v1_1/.gitkeep",
-      "tests/v1_1/test_gitignore_hygiene.py",
-      "tools/verify_v1_1_gitignore_hygiene.py"
+      "tests/v1_1/test_untracked_review_queue.py",
+      "tools/triage_v1_1_untracked_review_queue.py"
     ]
   },
   "destructive_action_taken": false,
@@ -105,5 +105,5 @@
   },
   "ok": true,
   "schema": "ogk.v1_1.workspace_inventory.v1",
-  "untracked_count": 19159
+  "untracked_count": 19158
 }

@@ -24,6 +24,7 @@ REQUIRED_STATIC_PATHS = [
     "docs/plans/2026-07-09-ogk-final-v1-1-phase-04-implementation-plan.md",
     "docs/plans/2026-07-09-ogk-final-v1-1-phase-05-implementation-plan.md",
     "docs/plans/2026-07-09-ogk-final-v1-1-phase-06-implementation-plan.md",
+    "docs/plans/2026-07-09-ogk-final-v1-1-phase-07-implementation-plan.md",
     "tools/verify_eventledger_replay.py",
     "tools/verify_artifact_registry_hashes.py",
     "tools/verify_recovery_boundaries.py",
@@ -36,6 +37,7 @@ REQUIRED_STATIC_PATHS = [
     "tools/verify_v1_1_final_acceptance.py",
     "tools/propose_v1_1_workspace_hygiene.py",
     "tools/verify_v1_1_gitignore_hygiene.py",
+    "tools/triage_v1_1_untracked_review_queue.py",
     "reports/v1_1/phase_01/PHASE_01_SUMMARY.md",
     "reports/v1_1/phase_02/PHASE_02_SUMMARY.md",
     "reports/v1_1/phase_03/PHASE_03_SUMMARY.md",
@@ -56,6 +58,9 @@ REQUIRED_STATIC_PATHS = [
     "reports/v1_1/phase_06/PHASE_06_SUMMARY.md",
     "reports/v1_1/phase_06/gitignore_hygiene_report.md",
     "reports/v1_1/phase_06/gitignore_hygiene_result.json",
+    "reports/v1_1/phase_07/PHASE_07_SUMMARY.md",
+    "reports/v1_1/phase_07/untracked_review_queue_report.md",
+    "reports/v1_1/phase_07/untracked_review_queue_result.json",
 ]
 
 
