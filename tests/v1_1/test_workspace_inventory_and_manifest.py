@@ -14,6 +14,7 @@ def test_workspace_inventory_classifies_key_v1_1_and_baseline_paths() -> None:
     assert classify_path("tests/v1_1/__pycache__/x.pyc") == "generated_cache"
     assert classify_path("node_modules/package/index.js") == "generated_cache"
     assert classify_path("tools/triage_v1_1_untracked_review_queue.py") == "v1_1_release_candidate"
+    assert classify_path("tools/assess_v1_1_source_candidates.py") == "v1_1_release_candidate"
 
 
 def test_workspace_inventory_writes_reports_without_destructive_action(tmp_path: Path) -> None:

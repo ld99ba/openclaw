@@ -35,6 +35,7 @@ def classify_path(path: str) -> str:
     if (
         path.startswith("tools/verify_")
         or path.startswith("tools/classify_v1_1_")
+        or path.startswith("tools/assess_v1_1_")
         or path.startswith("tools/propose_v1_1_")
         or path.startswith("tools/triage_v1_1_")
     ):

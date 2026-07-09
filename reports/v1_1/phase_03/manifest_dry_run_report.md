@@ -1,7 +1,7 @@
 # V1.1 Phase 03 Manifest Dry Run
 
 Status: PASS
-Manifest paths: 69
+Manifest paths: 75
 Missing paths: 0
 Forbidden paths: 0
 Git staging executed: False
@@ -17,6 +17,7 @@ Git staging executed: False
 | docs/plans/2026-07-09-ogk-final-v1-1-phase-05-implementation-plan.md |
 | docs/plans/2026-07-09-ogk-final-v1-1-phase-06-implementation-plan.md |
 | docs/plans/2026-07-09-ogk-final-v1-1-phase-07-implementation-plan.md |
+| docs/plans/2026-07-09-ogk-final-v1-1-phase-08-implementation-plan.md |
 | reports/v1_1/phase_01/PHASE_01_SUMMARY.md |
 | reports/v1_1/phase_01/artifact_hash_report.md |
 | reports/v1_1/phase_01/artifact_hash_result.json |
@@ -50,6 +51,9 @@ Git staging executed: False
 | reports/v1_1/phase_07/PHASE_07_SUMMARY.md |
 | reports/v1_1/phase_07/untracked_review_queue_report.md |
 | reports/v1_1/phase_07/untracked_review_queue_result.json |
+| reports/v1_1/phase_08/PHASE_08_SUMMARY.md |
+| reports/v1_1/phase_08/source_candidate_assessment_report.md |
+| reports/v1_1/phase_08/source_candidate_assessment_result.json |
 | tests/v1_1/test_artifact_registry_hash_verifier.py |
 | tests/v1_1/test_eventledger_replay_verifier.py |
 | tests/v1_1/test_gitignore_hygiene.py |
@@ -58,12 +62,14 @@ Git staging executed: False
 | tests/v1_1/test_memory_skill_lifecycle.py |
 | tests/v1_1/test_policy_engine_permissions.py |
 | tests/v1_1/test_recovery_boundaries.py |
+| tests/v1_1/test_source_candidate_assessment.py |
 | tests/v1_1/test_supervisor_stability.py |
 | tests/v1_1/test_tool_gateway_security.py |
 | tests/v1_1/test_untracked_review_queue.py |
 | tests/v1_1/test_v1_1_final_acceptance.py |
 | tests/v1_1/test_workspace_hygiene_proposal.py |
 | tests/v1_1/test_workspace_inventory_and_manifest.py |
+| tools/assess_v1_1_source_candidates.py |
 | tools/classify_v1_1_workspace_inventory.py |
 | tools/propose_v1_1_workspace_hygiene.py |
 | tools/triage_v1_1_untracked_review_queue.py |
