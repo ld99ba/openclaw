@@ -1,8 +1,8 @@
 # V1.1 Phase 07 Untracked Review Queue
 
 Status: PASS
-Untracked paths: 19158
-Review queue paths: 19150
+Untracked paths: 19171
+Review queue paths: 19163
 V1.1 release candidates excluded: 8
 Source candidates: 16
 Manual review required: `True`
@@ -18,9 +18,9 @@ Destructive action taken: `False`
 | historical_release_or_planning_material | 26 | review as historical handoff material, not as code | 03_tasks/HERMES_AUTO_PROGRESS_MASTER_PLAN.md, 03_tasks/hermes_auto_progress_status.json, 10_release/HERMES_FINAL_ACCEPTANCE_REPORT.md, 10_release/HERMES_FINAL_AUDIT_REPORT.md, 10_release/HERMES_FINAL_PROGRESS_SUMMARY.md |
 | historical_runtime_evidence | 9830 | keep out of release manifests unless a later evidence review selects specific files | reports/audits/resume_audit.md, reports/claude-code-evolution-plan.md, reports/deep-dives/README.md, reports/deep-dives/deepdive_agents_2412.md, reports/deep-dives/deepdive_agents_2505_07078.md |
 | local_control_state | 42 | preserve locally or ignore with a narrow rule; do not publish | reports/.hermes-current-owner-token, research/hermes/hermes-agent/.dockerignore, research/hermes/hermes-agent/.env.example, research/hermes/hermes-agent/.envrc, research/hermes/hermes-agent/.gitattributes |
-| local_knowledge_or_memory_state | 1318 | preserve locally; do not publish without privacy review | daily-review/2026-05-20.md, daily-review/2026-05-22.md, daily-review/2026-05-23.md, daily-review/2026-05-24.md, daily-review/README.md |
+| local_knowledge_or_memory_state | 1328 | preserve locally; do not publish without privacy review | daily-review/2026-05-20.md, daily-review/2026-05-22.md, daily-review/2026-05-23.md, daily-review/2026-05-24.md, daily-review/README.md |
 | media_or_binary_artifact | 51 | review purpose and size before any inclusion | quant_screenshot_1.png, quant_screenshot_2.png, research/hermes/hermes-agent/apps/bootstrap-installer/src-tauri/icons/128x128.png, research/hermes/hermes-agent/apps/bootstrap-installer/src-tauri/icons/128x128@2x.png, research/hermes/hermes-agent/apps/bootstrap-installer/src-tauri/icons/32x32.png |
-| root_misc_review | 6873 | requires owner review before staging | 120B, 3.2K, 677B, deploy_xlx_system_final_viz.py, research/hermes/hermes-agent/AGENTS.md |
+| root_misc_review | 6876 | requires owner review before staging | 120B, 3.2K, 677B, deploy_xlx_system_final_viz.py, research/hermes/hermes-agent/AGENTS.md |
 | source_surface_candidate | 16 | review for a dedicated source inclusion ADR before staging | openclaw/__init__.py, openclaw/evidence/__init__.py, openclaw/execution/__init__.py, openclaw/governance/__init__.py, openclaw/governance/project_spec.json |
 
 ## Top-Level Candidates

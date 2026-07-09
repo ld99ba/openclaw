@@ -1,7 +1,7 @@
 # V1.1 Phase 03 Manifest Dry Run
 
 Status: PASS
-Manifest paths: 81
+Manifest paths: 87
 Missing paths: 0
 Forbidden paths: 0
 Git staging executed: False
@@ -19,6 +19,7 @@ Git staging executed: False
 | docs/plans/2026-07-09-ogk-final-v1-1-phase-07-implementation-plan.md |
 | docs/plans/2026-07-09-ogk-final-v1-1-phase-08-implementation-plan.md |
 | docs/plans/2026-07-09-ogk-final-v1-1-phase-09-implementation-plan.md |
+| docs/plans/2026-07-09-ogk-final-v1-1-phase-10-implementation-plan.md |
 | reports/v1_1/phase_01/PHASE_01_SUMMARY.md |
 | reports/v1_1/phase_01/artifact_hash_report.md |
 | reports/v1_1/phase_01/artifact_hash_result.json |
@@ -58,6 +59,9 @@ Git staging executed: False
 | reports/v1_1/phase_09/PHASE_09_SUMMARY.md |
 | reports/v1_1/phase_09/source_candidate_inclusion_decision_report.md |
 | reports/v1_1/phase_09/source_candidate_inclusion_decision_result.json |
+| reports/v1_1/phase_10/PHASE_10_SUMMARY.md |
+| reports/v1_1/phase_10/source_inclusion_preflight_report.md |
+| reports/v1_1/phase_10/source_inclusion_preflight_result.json |
 | tests/v1_1/test_artifact_registry_hash_verifier.py |
 | tests/v1_1/test_eventledger_replay_verifier.py |
 | tests/v1_1/test_gitignore_hygiene.py |
@@ -68,6 +72,7 @@ Git staging executed: False
 | tests/v1_1/test_recovery_boundaries.py |
 | tests/v1_1/test_source_candidate_assessment.py |
 | tests/v1_1/test_source_candidate_inclusion_decision.py |
+| tests/v1_1/test_source_inclusion_preflight.py |
 | tests/v1_1/test_supervisor_stability.py |
 | tests/v1_1/test_tool_gateway_security.py |
 | tests/v1_1/test_untracked_review_queue.py |
@@ -89,3 +94,4 @@ Git staging executed: False
 | tools/verify_v1_1_final_acceptance.py |
 | tools/verify_v1_1_gitignore_hygiene.py |
 | tools/verify_v1_1_manifest_dry_run.py |
+| tools/verify_v1_1_source_inclusion_preflight.py |

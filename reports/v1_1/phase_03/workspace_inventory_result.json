@@ -2,7 +2,7 @@
   "category_counts": {
     "historical_report_or_runtime_evidence": 9831,
     "local_control_or_hidden_state": 65,
-    "unknown_review_required": 9245,
+    "unknown_review_required": 9258,
     "v1_0_baseline_preserve": 9,
     "v1_1_release_candidate": 8
   },
@@ -85,14 +85,14 @@
       "reports/final/resume_state_rebuild.json"
     ],
     "v1_1_release_candidate": [
-      "docs/plans/2026-07-09-ogk-final-v1-1-phase-09-implementation-plan.md",
+      "docs/plans/2026-07-09-ogk-final-v1-1-phase-10-implementation-plan.md",
       "reports/v1_1/phase_01/.gitkeep",
-      "reports/v1_1/phase_09/PHASE_09_SUMMARY.md",
-      "reports/v1_1/phase_09/source_candidate_inclusion_decision_report.md",
-      "reports/v1_1/phase_09/source_candidate_inclusion_decision_result.json",
+      "reports/v1_1/phase_10/PHASE_10_SUMMARY.md",
+      "reports/v1_1/phase_10/source_inclusion_preflight_report.md",
+      "reports/v1_1/phase_10/source_inclusion_preflight_result.json",
       "tests/v1_1/.gitkeep",
-      "tests/v1_1/test_source_candidate_inclusion_decision.py",
-      "tools/plan_v1_1_source_candidate_inclusion.py"
+      "tests/v1_1/test_source_inclusion_preflight.py",
+      "tools/verify_v1_1_source_inclusion_preflight.py"
     ]
   },
   "destructive_action_taken": false,
@@ -105,5 +105,5 @@
   },
   "ok": true,
   "schema": "ogk.v1_1.workspace_inventory.v1",
-  "untracked_count": 19158
+  "untracked_count": 19171
 }
