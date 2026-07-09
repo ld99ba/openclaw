@@ -1,19 +1,21 @@
 # V1.1 Phase 03 Manifest Dry Run
 
 Status: PASS
-Manifest paths: 56
+Manifest paths: 63
 Missing paths: 0
 Forbidden paths: 0
 Git staging executed: False
 
 | Path |
 |---|
+| .gitignore |
 | docs/plans/2026-07-09-ogk-final-v1-1-hardening-design.md |
 | docs/plans/2026-07-09-ogk-final-v1-1-phase-01-implementation-plan.md |
 | docs/plans/2026-07-09-ogk-final-v1-1-phase-02-implementation-plan.md |
 | docs/plans/2026-07-09-ogk-final-v1-1-phase-03-implementation-plan.md |
 | docs/plans/2026-07-09-ogk-final-v1-1-phase-04-implementation-plan.md |
 | docs/plans/2026-07-09-ogk-final-v1-1-phase-05-implementation-plan.md |
+| docs/plans/2026-07-09-ogk-final-v1-1-phase-06-implementation-plan.md |
 | reports/v1_1/phase_01/PHASE_01_SUMMARY.md |
 | reports/v1_1/phase_01/artifact_hash_report.md |
 | reports/v1_1/phase_01/artifact_hash_result.json |
@@ -41,8 +43,12 @@ Git staging executed: False
 | reports/v1_1/phase_05/PHASE_05_SUMMARY.md |
 | reports/v1_1/phase_05/workspace_hygiene_proposal_report.md |
 | reports/v1_1/phase_05/workspace_hygiene_proposal_result.json |
+| reports/v1_1/phase_06/PHASE_06_SUMMARY.md |
+| reports/v1_1/phase_06/gitignore_hygiene_report.md |
+| reports/v1_1/phase_06/gitignore_hygiene_result.json |
 | tests/v1_1/test_artifact_registry_hash_verifier.py |
 | tests/v1_1/test_eventledger_replay_verifier.py |
+| tests/v1_1/test_gitignore_hygiene.py |
 | tests/v1_1/test_hermes_behavior_matrix.py |
 | tests/v1_1/test_main_governance_boundary.py |
 | tests/v1_1/test_memory_skill_lifecycle.py |
@@ -63,4 +69,5 @@ Git staging executed: False
 | tools/verify_recovery_boundaries.py |
 | tools/verify_supervisor_stability.py |
 | tools/verify_v1_1_final_acceptance.py |
+| tools/verify_v1_1_gitignore_hygiene.py |
 | tools/verify_v1_1_manifest_dry_run.py |

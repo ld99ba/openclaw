@@ -1,15 +1,14 @@
 # V1.1 Phase 03 Workspace Inventory
 
 Status: PASS
-Untracked paths: 20366
+Untracked paths: 19159
 `main/` status: nested_git_repository
 Recommendation: keep excluded until explicit governance approval; do not force-add into V1.1
 
 | Category | Count | Sample |
 |---|---:|---|
-| generated_cache | 383 | memory/xiaolongxia/code_proposals/proposal_0f7bd4d2fa89/__pycache__/frontier_capabilities.cpython-312.pyc, memory/xiaolongxia/code_proposals/proposal_0f7bd4d2fa89/__pycache__/test_frontier_capabilities.cpython-312.pyc, memory/xiaolongxia/code_proposals/proposal_14b2d4fcd181/__pycache__/frontier_capabilities.cpython-312.pyc, memory/xiaolongxia/code_proposals/proposal_4e75b1425762/__pycache__/frontier_capabilities.cpython-312.pyc, node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/results.json |
-| historical_report_or_runtime_evidence | 9925 | reports/.archive/hermes-empty-report-artifact/reports/hermes-archive-protection-execute-next-backlog-validate-2026-06-24-195500.stderr.log, reports/.archive/hermes-empty-report-artifact/reports/hermes-artifact-index-cleanup-protection-next-backlog-2026-06-24-220722.stderr.log, reports/.archive/hermes-empty-report-artifact/reports/hermes-artifact-index-cleanup-protection-next-backlog-2026-06-24-221151.stderr.log, reports/.archive/hermes-empty-report-artifact/reports/hermes-artifact-index-cleanup-protection-pycompile-2026-06-24-220722.log, reports/.archive/hermes-empty-report-artifact/reports/hermes-artifact-index-cleanup-protection-pycompile-2026-06-24-221151.log |
-| local_control_or_hidden_state | 796 | .clawhub/lock.json, .forge/candidates.jsonl, .forge/captures.jsonl, .forge/filtered-candidates.jsonl, .forge/notifications.jsonl |
-| unknown_review_required | 9246 | 03_tasks/HERMES_AUTO_PROGRESS_MASTER_PLAN.md, 03_tasks/hermes_auto_progress_status.json, 10_release/HERMES_FINAL_ACCEPTANCE_REPORT.md, 10_release/HERMES_FINAL_AUDIT_REPORT.md, 10_release/HERMES_FINAL_PROGRESS_SUMMARY.md |
+| historical_report_or_runtime_evidence | 9832 | reports/.hermes-current-owner-token, reports/audits/resume_audit.md, reports/claude-code-evolution-plan.md, reports/deep-dives/README.md, reports/deep-dives/deepdive_agents_2412.md |
+| local_control_or_hidden_state | 65 | external/RD-Agent/.bumpversion.cfg, external/RD-Agent/.commitlintrc.js, external/RD-Agent/.devcontainer/Dockerfile, external/RD-Agent/.devcontainer/README.md, external/RD-Agent/.devcontainer/devcontainer.json |
+| unknown_review_required | 9245 | 03_tasks/HERMES_AUTO_PROGRESS_MASTER_PLAN.md, 03_tasks/hermes_auto_progress_status.json, 10_release/HERMES_FINAL_ACCEPTANCE_REPORT.md, 10_release/HERMES_FINAL_AUDIT_REPORT.md, 10_release/HERMES_FINAL_PROGRESS_SUMMARY.md |
 | v1_0_baseline_preserve | 9 | reports/final/OGK_FINAL_HANDOFF_DOC_GENERATION_LOG.md, reports/final/OGK_FINAL_V1_0_PROJECT_HANDOFF_FOR_CHATGPT.md, reports/final/OGK_FINAL_V1_0_UPLOAD_PACKAGE_INDEX.md, reports/final/OGK_FINAL_V1_1_STARTING_POINT.md, reports/final/OPENCLAW_GIT_RELEASE_SUMMARY.md |
-| v1_1_release_candidate | 7 | docs/plans/2026-07-09-ogk-final-v1-1-phase-05-implementation-plan.md, reports/v1_1/phase_01/.gitkeep, reports/v1_1/phase_05/PHASE_05_SUMMARY.md, reports/v1_1/phase_05/workspace_hygiene_proposal_report.md, reports/v1_1/phase_05/workspace_hygiene_proposal_result.json |
+| v1_1_release_candidate | 8 | docs/plans/2026-07-09-ogk-final-v1-1-phase-06-implementation-plan.md, reports/v1_1/phase_01/.gitkeep, reports/v1_1/phase_06/PHASE_06_SUMMARY.md, reports/v1_1/phase_06/gitignore_hygiene_report.md, reports/v1_1/phase_06/gitignore_hygiene_result.json |

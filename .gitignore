@@ -1,1 +1,21 @@
 /main/
+
+# OGK-Final V1.1 workspace hygiene.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+.pw-browsers/
+.clawhub/
+.forge/
+.locks/
+.openclaw-locks/
+.openclaw/
+.mx-claw-workspace/
+.learnings/
+reports/.archive/
+reports/.backup/
+reports/.locks/
+reports/.rollback/
+reports/.hermes-*.lock*
+.hermes-*.lock*
