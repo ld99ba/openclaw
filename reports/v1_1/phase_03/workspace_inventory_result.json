@@ -2,10 +2,10 @@
   "category_counts": {
     "generated_cache": 375,
     "historical_report_or_runtime_evidence": 9924,
-    "local_control_or_hidden_state": 799,
-    "unknown_review_required": 9297,
+    "local_control_or_hidden_state": 798,
+    "unknown_review_required": 9245,
     "v1_0_baseline_preserve": 9,
-    "v1_1_release_candidate": 2
+    "v1_1_release_candidate": 16
   },
   "category_samples": {
     "generated_cache": [
@@ -108,8 +108,22 @@
       "reports/final/resume_state_rebuild.json"
     ],
     "v1_1_release_candidate": [
+      "docs/plans/2026-07-09-ogk-final-v1-1-phase-04-implementation-plan.md",
       "reports/v1_1/phase_01/.gitkeep",
-      "tests/v1_1/.gitkeep"
+      "reports/v1_1/phase_04/PHASE_04_SUMMARY.md",
+      "reports/v1_1/phase_04/main_governance_adr.md",
+      "reports/v1_1/phase_04/main_governance_result.json",
+      "reports/v1_1/phase_04/supervisor_stability_report.md",
+      "reports/v1_1/phase_04/supervisor_stability_result.json",
+      "reports/v1_1/phase_04/v1_1_final_acceptance_report.md",
+      "reports/v1_1/phase_04/v1_1_final_acceptance_result.json",
+      "tests/v1_1/.gitkeep",
+      "tests/v1_1/test_main_governance_boundary.py",
+      "tests/v1_1/test_supervisor_stability.py",
+      "tests/v1_1/test_v1_1_final_acceptance.py",
+      "tools/verify_main_governance_boundary.py",
+      "tools/verify_supervisor_stability.py",
+      "tools/verify_v1_1_final_acceptance.py"
     ]
   },
   "destructive_action_taken": false,
@@ -122,5 +136,5 @@
   },
   "ok": true,
   "schema": "ogk.v1_1.workspace_inventory.v1",
-  "untracked_count": 20406
+  "untracked_count": 20367
 }

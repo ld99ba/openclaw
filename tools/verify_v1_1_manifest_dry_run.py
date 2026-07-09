@@ -20,6 +20,7 @@ REQUIRED_STATIC_PATHS = [
     "docs/plans/2026-07-09-ogk-final-v1-1-phase-01-implementation-plan.md",
     "docs/plans/2026-07-09-ogk-final-v1-1-phase-02-implementation-plan.md",
     "docs/plans/2026-07-09-ogk-final-v1-1-phase-03-implementation-plan.md",
+    "docs/plans/2026-07-09-ogk-final-v1-1-phase-04-implementation-plan.md",
     "tools/verify_eventledger_replay.py",
     "tools/verify_artifact_registry_hashes.py",
     "tools/verify_recovery_boundaries.py",
@@ -27,6 +28,9 @@ REQUIRED_STATIC_PATHS = [
     "tools/verify_memory_skill_lifecycle.py",
     "tools/classify_v1_1_workspace_inventory.py",
     "tools/verify_v1_1_manifest_dry_run.py",
+    "tools/verify_supervisor_stability.py",
+    "tools/verify_main_governance_boundary.py",
+    "tools/verify_v1_1_final_acceptance.py",
     "reports/v1_1/phase_01/PHASE_01_SUMMARY.md",
     "reports/v1_1/phase_02/PHASE_02_SUMMARY.md",
     "reports/v1_1/phase_03/PHASE_03_SUMMARY.md",
@@ -34,6 +38,13 @@ REQUIRED_STATIC_PATHS = [
     "reports/v1_1/phase_03/manifest_dry_run_report.md",
     "reports/v1_1/phase_03/workspace_inventory_result.json",
     "reports/v1_1/phase_03/workspace_inventory_report.md",
+    "reports/v1_1/phase_04/PHASE_04_SUMMARY.md",
+    "reports/v1_1/phase_04/main_governance_adr.md",
+    "reports/v1_1/phase_04/main_governance_result.json",
+    "reports/v1_1/phase_04/supervisor_stability_report.md",
+    "reports/v1_1/phase_04/supervisor_stability_result.json",
+    "reports/v1_1/phase_04/v1_1_final_acceptance_report.md",
+    "reports/v1_1/phase_04/v1_1_final_acceptance_result.json",
 ]
 
 

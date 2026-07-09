@@ -1,0 +1,135 @@
+{
+  "completed_runs": 5,
+  "cycles": 5,
+  "destructive_action_taken": false,
+  "expected_heartbeat_count": 35,
+  "external_services_required": false,
+  "heartbeat_count": 35,
+  "invalid_transition_detected": true,
+  "ok": true,
+  "ordered_progress_ok": true,
+  "phase_count": 7,
+  "repeated_failure_detected": true,
+  "schema": "ogk.v1_1.supervisor_stability.v1",
+  "stuck_state_detected": true,
+  "timeline_sample": [
+    {
+      "cycle": 1,
+      "event": "heartbeat",
+      "phase": "PHASE_01",
+      "status": "ACCEPTED"
+    },
+    {
+      "cycle": 1,
+      "event": "heartbeat",
+      "phase": "PHASE_02",
+      "status": "ACCEPTED"
+    },
+    {
+      "cycle": 1,
+      "event": "heartbeat",
+      "phase": "PHASE_03",
+      "status": "ACCEPTED"
+    },
+    {
+      "cycle": 1,
+      "event": "heartbeat",
+      "phase": "PHASE_04",
+      "status": "ACCEPTED"
+    },
+    {
+      "cycle": 1,
+      "event": "heartbeat",
+      "phase": "PHASE_05",
+      "status": "ACCEPTED"
+    },
+    {
+      "cycle": 1,
+      "event": "heartbeat",
+      "phase": "PHASE_06",
+      "status": "ACCEPTED"
+    },
+    {
+      "cycle": 1,
+      "event": "heartbeat",
+      "phase": "PHASE_07",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_count": 7,
+      "cycle": 1,
+      "event": "run_complete"
+    },
+    {
+      "cycle": 2,
+      "event": "heartbeat",
+      "phase": "PHASE_01",
+      "status": "ACCEPTED"
+    },
+    {
+      "cycle": 2,
+      "event": "heartbeat",
+      "phase": "PHASE_02",
+      "status": "ACCEPTED"
+    },
+    {
+      "cycle": 2,
+      "event": "heartbeat",
+      "phase": "PHASE_03",
+      "status": "ACCEPTED"
+    },
+    {
+      "cycle": 2,
+      "event": "heartbeat",
+      "phase": "PHASE_04",
+      "status": "ACCEPTED"
+    },
+    {
+      "cycle": 2,
+      "event": "heartbeat",
+      "phase": "PHASE_05",
+      "status": "ACCEPTED"
+    },
+    {
+      "cycle": 2,
+      "event": "heartbeat",
+      "phase": "PHASE_06",
+      "status": "ACCEPTED"
+    },
+    {
+      "cycle": 2,
+      "event": "heartbeat",
+      "phase": "PHASE_07",
+      "status": "ACCEPTED"
+    },
+    {
+      "accepted_count": 7,
+      "cycle": 2,
+      "event": "run_complete"
+    },
+    {
+      "cycle": 3,
+      "event": "heartbeat",
+      "phase": "PHASE_01",
+      "status": "ACCEPTED"
+    },
+    {
+      "cycle": 3,
+      "event": "heartbeat",
+      "phase": "PHASE_02",
+      "status": "ACCEPTED"
+    },
+    {
+      "cycle": 3,
+      "event": "heartbeat",
+      "phase": "PHASE_03",
+      "status": "ACCEPTED"
+    },
+    {
+      "cycle": 3,
+      "event": "heartbeat",
+      "phase": "PHASE_04",
+      "status": "ACCEPTED"
+    }
+  ]
+}
