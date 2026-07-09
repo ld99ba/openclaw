@@ -35,6 +35,7 @@ REQUIRED_STATIC_PATHS = [
     "docs/plans/2026-07-09-ogk-final-v1-1-phase-15-implementation-plan.md",
     "docs/plans/2026-07-09-ogk-final-v1-1-phase-16-implementation-plan.md",
     "docs/plans/2026-07-09-ogk-final-v1-1-phase-17-implementation-plan.md",
+    "docs/plans/2026-07-09-ogk-final-v1-1-phase-18-implementation-plan.md",
     "openclaw/__init__.py",
     "openclaw/evidence/__init__.py",
     "openclaw/execution/__init__.py",
@@ -46,6 +47,7 @@ REQUIRED_STATIC_PATHS = [
     "openclaw/policies/policy.json",
     "openclaw/recovery/__init__.py",
     "tools/build_v1_1_release_publication_package.py",
+    "tools/build_v1_1_release_execution_packet.py",
     "tools/verify_v1_1_publication_target_refresh.py",
     "tools/verify_eventledger_replay.py",
     "tools/verify_artifact_registry_hashes.py",
@@ -122,6 +124,10 @@ REQUIRED_STATIC_PATHS = [
     "reports/v1_1/phase_17/PHASE_17_SUMMARY.md",
     "reports/v1_1/phase_17/publication_target_refresh_report.md",
     "reports/v1_1/phase_17/publication_target_refresh_result.json",
+    "reports/v1_1/phase_18/PHASE_18_SUMMARY.md",
+    "reports/v1_1/phase_18/RELEASE_EXECUTION_PACKET.md",
+    "reports/v1_1/phase_18/release_execution_packet_report.md",
+    "reports/v1_1/phase_18/release_execution_packet_result.json",
 ]
 
 
