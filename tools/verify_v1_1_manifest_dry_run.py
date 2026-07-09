@@ -32,6 +32,7 @@ REQUIRED_STATIC_PATHS = [
     "docs/plans/2026-07-09-ogk-final-v1-1-phase-12-implementation-plan.md",
     "docs/plans/2026-07-09-ogk-final-v1-1-phase-13-implementation-plan.md",
     "docs/plans/2026-07-09-ogk-final-v1-1-phase-14-implementation-plan.md",
+    "docs/plans/2026-07-09-ogk-final-v1-1-phase-15-implementation-plan.md",
     "openclaw/__init__.py",
     "openclaw/evidence/__init__.py",
     "openclaw/execution/__init__.py",
@@ -49,6 +50,7 @@ REQUIRED_STATIC_PATHS = [
     "tools/verify_memory_skill_lifecycle.py",
     "tools/classify_v1_1_workspace_inventory.py",
     "tools/verify_v1_1_manifest_dry_run.py",
+    "tools/verify_v1_1_release_publication_approval_gate.py",
     "tools/verify_v1_1_release_readiness_gate.py",
     "tools/verify_supervisor_stability.py",
     "tools/verify_main_governance_boundary.py",
@@ -106,6 +108,9 @@ REQUIRED_STATIC_PATHS = [
     "reports/v1_1/phase_14/PHASE_14_SUMMARY.md",
     "reports/v1_1/phase_14/release_readiness_gate_report.md",
     "reports/v1_1/phase_14/release_readiness_gate_result.json",
+    "reports/v1_1/phase_15/PHASE_15_SUMMARY.md",
+    "reports/v1_1/phase_15/release_publication_approval_gate_report.md",
+    "reports/v1_1/phase_15/release_publication_approval_gate_result.json",
 ]
 
 
