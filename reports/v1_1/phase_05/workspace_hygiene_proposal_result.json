@@ -1,4 +1,31 @@
 {
+  "archive_plan": [
+    {
+      "approval_required_before_move_or_delete": false,
+      "category": "generated_cache",
+      "recommendation": "ignore and regenerate on demand"
+    },
+    {
+      "approval_required_before_move_or_delete": true,
+      "category": "local_control_or_hidden_state",
+      "recommendation": "ignore runtime-local state; preserve on disk"
+    },
+    {
+      "approval_required_before_move_or_delete": true,
+      "category": "historical_report_or_runtime_evidence",
+      "recommendation": "keep out of V1.1 manifests; archive only after dedicated evidence review"
+    },
+    {
+      "approval_required_before_move_or_delete": true,
+      "category": "unknown_review_required",
+      "recommendation": "do not ignore or archive automatically; require owner review"
+    },
+    {
+      "approval_required_before_move_or_delete": true,
+      "category": "v1_0_baseline_preserve",
+      "recommendation": "preserve as baseline evidence; do not ignore broadly"
+    }
+  ],
   "category_counts": {
     "generated_cache": 383,
     "historical_report_or_runtime_evidence": 9925,
@@ -118,14 +145,45 @@
     ]
   },
   "destructive_action_taken": false,
-  "full_inventory_omitted": true,
-  "full_inventory_omitted_reason": "release evidence records counts and samples only to avoid staging volatile caches and historical path noise",
+  "direct_file_mutation_taken": false,
+  "forbidden_auto_ignore_patterns": [
+    "reports/**",
+    "reports/final/**",
+    "reports/v1_1/**",
+    "docs/**",
+    "tools/**",
+    "tests/**",
+    "openclaw/**"
+  ],
+  "forbidden_hits": [],
+  "git_stage_executed": false,
+  "gitignore_updated": false,
   "main_boundary": {
     "path": "main",
     "recommendation": "keep excluded until explicit governance approval; do not force-add into V1.1",
     "status": "nested_git_repository"
   },
   "ok": true,
-  "schema": "ogk.v1_1.workspace_inventory.v1",
+  "safe_gitignore_additions": [
+    "__pycache__/",
+    "*.py[cod]",
+    ".pytest_cache/",
+    "node_modules/",
+    ".pw-browsers/",
+    ".clawhub/",
+    ".forge/",
+    ".locks/",
+    ".openclaw-locks/",
+    ".openclaw/",
+    ".mx-claw-workspace/",
+    ".learnings/",
+    "reports/.archive/",
+    "reports/.backup/",
+    "reports/.locks/",
+    "reports/.rollback/",
+    "reports/.hermes-*.lock*",
+    ".hermes-*.lock*"
+  ],
+  "schema": "ogk.v1_1.workspace_hygiene_proposal.v1",
   "untracked_count": 20366
 }

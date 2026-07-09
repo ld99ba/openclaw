@@ -12,6 +12,7 @@ def test_workspace_inventory_classifies_key_v1_1_and_baseline_paths() -> None:
     assert classify_path("reports/final/current_state.json") == "v1_0_baseline_preserve"
     assert classify_path("main/package.json") == "nested_repo_boundary"
     assert classify_path("tests/v1_1/__pycache__/x.pyc") == "generated_cache"
+    assert classify_path("node_modules/package/index.js") == "generated_cache"
 
 
 def test_workspace_inventory_writes_reports_without_destructive_action(tmp_path: Path) -> None:

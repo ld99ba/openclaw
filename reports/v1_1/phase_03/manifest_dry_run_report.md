@@ -1,7 +1,7 @@
 # V1.1 Phase 03 Manifest Dry Run
 
 Status: PASS
-Manifest paths: 50
+Manifest paths: 56
 Missing paths: 0
 Forbidden paths: 0
 Git staging executed: False
@@ -13,6 +13,7 @@ Git staging executed: False
 | docs/plans/2026-07-09-ogk-final-v1-1-phase-02-implementation-plan.md |
 | docs/plans/2026-07-09-ogk-final-v1-1-phase-03-implementation-plan.md |
 | docs/plans/2026-07-09-ogk-final-v1-1-phase-04-implementation-plan.md |
+| docs/plans/2026-07-09-ogk-final-v1-1-phase-05-implementation-plan.md |
 | reports/v1_1/phase_01/PHASE_01_SUMMARY.md |
 | reports/v1_1/phase_01/artifact_hash_report.md |
 | reports/v1_1/phase_01/artifact_hash_result.json |
@@ -37,6 +38,9 @@ Git staging executed: False
 | reports/v1_1/phase_04/supervisor_stability_result.json |
 | reports/v1_1/phase_04/v1_1_final_acceptance_report.md |
 | reports/v1_1/phase_04/v1_1_final_acceptance_result.json |
+| reports/v1_1/phase_05/PHASE_05_SUMMARY.md |
+| reports/v1_1/phase_05/workspace_hygiene_proposal_report.md |
+| reports/v1_1/phase_05/workspace_hygiene_proposal_result.json |
 | tests/v1_1/test_artifact_registry_hash_verifier.py |
 | tests/v1_1/test_eventledger_replay_verifier.py |
 | tests/v1_1/test_hermes_behavior_matrix.py |
@@ -47,8 +51,10 @@ Git staging executed: False
 | tests/v1_1/test_supervisor_stability.py |
 | tests/v1_1/test_tool_gateway_security.py |
 | tests/v1_1/test_v1_1_final_acceptance.py |
+| tests/v1_1/test_workspace_hygiene_proposal.py |
 | tests/v1_1/test_workspace_inventory_and_manifest.py |
 | tools/classify_v1_1_workspace_inventory.py |
+| tools/propose_v1_1_workspace_hygiene.py |
 | tools/verify_artifact_registry_hashes.py |
 | tools/verify_eventledger_replay.py |
 | tools/verify_hermes_behavior_matrix.py |

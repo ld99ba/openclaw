@@ -19,7 +19,12 @@ def classify_path(path: str) -> str:
     parts = path.split("/")
     if path.startswith("main/"):
         return "nested_repo_boundary"
-    if "__pycache__" in parts or path.endswith(".pyc") or ".pytest_cache" in parts:
+    if (
+        "__pycache__" in parts
+        or "node_modules" in parts
+        or path.endswith(".pyc")
+        or ".pytest_cache" in parts
+    ):
         return "generated_cache"
     if path.startswith("docs/plans/2026-07-09-ogk-final-v1-1"):
         return "v1_1_release_candidate"
