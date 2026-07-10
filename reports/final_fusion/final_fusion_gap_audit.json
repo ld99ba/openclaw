@@ -1,0 +1,137 @@
+{
+  "current_evidence": [
+    {
+      "limitation": "Only covers six broad checks; not a complete Hermes capability inventory.",
+      "meaning": "High-level Hermes behavior equivalence matrix source.",
+      "path": "openclaw/hermes_adapter/behavior_equivalence.py"
+    },
+    {
+      "limitation": "Migration provider is not by itself first-class runtime fusion.",
+      "meaning": "OpenClaw plugin surface for importing Hermes state.",
+      "path": "extensions/migrate-hermes"
+    },
+    {
+      "limitation": "Needs integration proof with final fusion governance and recovery loops.",
+      "meaning": "Supervisor surface for listing, reading, and steering Codex sessions.",
+      "path": "extensions/codex-supervisor"
+    },
+    {
+      "limitation": "Needs final fusion contract spanning Hermes-origin capabilities.",
+      "meaning": "Policy, state machine, and supervisor kernel.",
+      "path": "openclaw/governance"
+    },
+    {
+      "limitation": "Needs final fusion evidence model for all workstreams.",
+      "meaning": "Artifact registry, event ledger, and replay primitives.",
+      "path": "openclaw/evidence"
+    },
+    {
+      "limitation": "Needs Hermes import/promotion/rollback evidence.",
+      "meaning": "Memory and skill lifecycle primitives.",
+      "path": "openclaw/intelligence"
+    },
+    {
+      "limitation": "Good baseline evidence, but not the final fusion completion program.",
+      "meaning": "Hardening evidence for the current merged baseline.",
+      "path": "reports/v1_1"
+    }
+  ],
+  "gates": [
+    "No unbounded version ladder: work is closed by final fusion gates, not by V1.2/V1.3 naming.",
+    "No final claim until every Hermes capability is inventoried, mapped, tested, or explicitly superseded.",
+    "No adapter-only claim: migration and compatibility surfaces must be promoted or bounded.",
+    "No unsafe autonomy: destructive, external, secret, release, and final-seal actions remain approval-gated.",
+    "No release/tag mutation in this audit step."
+  ],
+  "objective": {
+    "intent": "Create one final deliverable system that preserves OpenClaw capabilities, preserves Hermes capabilities, and adds unified capabilities that exceed either source system alone.",
+    "name": "OpenClaw-Hermes Final Fusion",
+    "not_the_goal": [
+      "Do not continue an unbounded V1.2/V1.3 version ladder.",
+      "Do not freeze the current state as final before fusion gaps are closed.",
+      "Do not treat migration/adaptation as full fusion without runtime evidence."
+    ]
+  },
+  "schema": "openclaw.hermes_final_fusion_gap_audit.v1",
+  "summary": {
+    "final_claim_allowed": false,
+    "next_action": "Build the source-anchored capability inventory for OpenClaw and Hermes.",
+    "open_gap_count": 3,
+    "partial_count": 3,
+    "strong_foundation_count": 1,
+    "workstreams_total": 7
+  },
+  "workstreams": [
+    {
+      "current_read": "partial",
+      "done_when": [
+        "Every capability has a source anchor, OpenClaw owner, test surface, and evidence path.",
+        "No Hermes capability is classified only by narrative claim."
+      ],
+      "goal": "Build a source-anchored inventory for every OpenClaw and Hermes capability.",
+      "id": "WS1",
+      "name": "Capability inventory and parity proof"
+    },
+    {
+      "current_read": "open_gap",
+      "done_when": [
+        "Adapter-only Hermes capabilities are either promoted, explicitly replaced by stronger OpenClaw-native behavior, or rejected with evidence.",
+        "The migrate-hermes plugin is a bridge, not the final proof of fusion."
+      ],
+      "goal": "Promote Hermes behavior from migration/adapter surfaces into first-class OpenClaw runtime capabilities.",
+      "id": "WS2",
+      "name": "Hermes capability promotion"
+    },
+    {
+      "current_read": "strong_foundation",
+      "done_when": [
+        "StateMachine, EventLedger, PolicyEngine, ToolGateway, Supervisor, and final acceptance share one coherent contract.",
+        "Approval boundaries are machine-checkable and human-readable."
+      ],
+      "goal": "Unify policy, approvals, state progression, event ledger, and final acceptance into one governed runtime.",
+      "id": "WS3",
+      "name": "Unified governance kernel"
+    },
+    {
+      "current_read": "partial",
+      "done_when": [
+        "Memory and skill artifacts carry source, purpose, expiry, audit, promotion, and rollback metadata.",
+        "Hermes-origin knowledge can be imported, validated, promoted, and reverted."
+      ],
+      "goal": "Fuse persistent memory, skill lifecycle, migration history, and rollback rules into a durable intelligence layer.",
+      "id": "WS4",
+      "name": "Memory, skill, and knowledge lifecycle"
+    },
+    {
+      "current_read": "partial",
+      "done_when": [
+        "Interruptions, missing state, missing artifacts, inconsistent ledgers, and retry loops have bounded recovery paths.",
+        "Autonomy never crosses destructive, external, secret, release, or final-seal approval gates."
+      ],
+      "goal": "Combine Hermes-style continuity with OpenClaw safety into bounded autonomous execution.",
+      "id": "WS5",
+      "name": "Recovery and autonomous execution"
+    },
+    {
+      "current_read": "open_gap",
+      "done_when": [
+        "Fresh install, upgrade, smoke, package acceptance, and core e2e workflows are reproducible.",
+        "A third party can run the fused system without private project memory."
+      ],
+      "goal": "Make the fused system installable, runnable, observable, and handoff-ready.",
+      "id": "WS6",
+      "name": "Installable and operable product"
+    },
+    {
+      "current_read": "open_gap",
+      "done_when": [
+        "The system can prove evidence-driven autonomous progress across sessions.",
+        "The system can supervise agent work, enforce policy, recover state, and emit acceptance evidence as one loop.",
+        "The beyond-both claims are covered by executable tests or replayable evidence."
+      ],
+      "goal": "Deliver explicit capabilities that are only possible after fusion.",
+      "id": "WS7",
+      "name": "Beyond-both-system capabilities"
+    }
+  ]
+}
