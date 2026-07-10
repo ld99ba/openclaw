@@ -1,0 +1,42 @@
+{
+  "approval_granted": false,
+  "approval_phrase": "批准发布 V1.1 hardening 当前分支",
+  "approval_required_before_publication": true,
+  "current_branch": "codex/ogk-final-v1.1-hardening",
+  "current_head": "3846a485e831a23d2e1ab3e97e3ab1d7d7e7d9a3",
+  "destructive_action_taken": false,
+  "execution_packet_ready": true,
+  "existing_tag": "ogk-final-v1.1",
+  "existing_tag_target": "2a4a97fa64b8e934e163307ca50bcebec6d7e7b2",
+  "existing_tag_target_matches_phase_17": true,
+  "failure_count": 0,
+  "failures": [],
+  "files_moved_or_deleted": false,
+  "git_commit_executed": false,
+  "git_stage_executed": false,
+  "guarded_actions": [
+    "create_or_update_github_release",
+    "move_existing_v1_1_tag",
+    "create_pull_request"
+  ],
+  "ok": true,
+  "phase_17_existing_tag_target": "2a4a97fa64b8e934e163307ca50bcebec6d7e7b2",
+  "publication_target_ref": "origin/codex/ogk-final-v1.1-hardening",
+  "pull_request_created": false,
+  "release_commands": [
+    "git fetch origin codex/ogk-final-v1.1-hardening --tags",
+    "git checkout codex/ogk-final-v1.1-hardening",
+    "git reset --hard origin/codex/ogk-final-v1.1-hardening",
+    "python3 tools/verify_v1_1_release_readiness_gate.py --output-dir reports/v1_1/phase_14",
+    "python3 tools/verify_v1_1_publication_target_refresh.py --output-dir reports/v1_1/phase_17",
+    "python3 tools/build_v1_1_release_execution_packet.py --output-dir reports/v1_1/phase_18",
+    "# Publish only after the exact approval phrase is provided by the owner."
+  ],
+  "release_commands_are_documentation_only": true,
+  "release_publication_performed": false,
+  "remote_head": "3846a485e831a23d2e1ab3e97e3ab1d7d7e7d9a3",
+  "remote_head_matches_current_head": true,
+  "schema": "ogk.v1_1.release_execution_packet.v1",
+  "tag_move_performed": false,
+  "target_branch": "codex/ogk-final-v1.1-hardening"
+}

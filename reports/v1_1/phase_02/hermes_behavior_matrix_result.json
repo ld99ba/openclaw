@@ -1,0 +1,52 @@
+{
+  "accepted": 6,
+  "items": [
+    {
+      "accepted": true,
+      "check": "runtime_not_replaced",
+      "evidence": "OpenClaw runtime preserved; Hermes runtime not copied",
+      "result": "ENHANCED",
+      "runtime_copied": false
+    },
+    {
+      "accepted": true,
+      "check": "state_driven_progress",
+      "evidence": "StateMachine + EventLedger replace free-form cron progression",
+      "result": "ENHANCED",
+      "runtime_copied": null
+    },
+    {
+      "accepted": true,
+      "check": "tool_safety",
+      "evidence": "ToolGateway + PolicyEngine classify and block dangerous actions",
+      "result": "ENHANCED",
+      "runtime_copied": null
+    },
+    {
+      "accepted": true,
+      "check": "permission_semantics",
+      "evidence": "OpenClaw approval retained; Hermes ACP permission only referenced",
+      "result": "EQUIVALENT_OR_SAFER",
+      "runtime_copied": null
+    },
+    {
+      "accepted": true,
+      "check": "error_recovery",
+      "evidence": "ErrorTaxonomy covers key Hermes failover classes",
+      "result": "EQUIVALENT_BASELINE",
+      "runtime_copied": null
+    },
+    {
+      "accepted": true,
+      "check": "final_acceptance",
+      "evidence": "FinalSeal derives FINAL_SUCCESS from evidence",
+      "result": "ENHANCED",
+      "runtime_copied": null
+    }
+  ],
+  "missing": [],
+  "ok": true,
+  "runtime_copied": false,
+  "schema": "ogk.hermes_behavior_matrix.v1",
+  "total": 6
+}

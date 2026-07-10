@@ -1,0 +1,15 @@
+{
+  "decision": "continue_excluding_main",
+  "destructive_action_taken": false,
+  "explicit_approval_required_for_future_inclusion": true,
+  "main_boundary": {
+    "path": "main",
+    "recommendation": "keep excluded until explicit governance approval; do not force-add into V1.1",
+    "status": "nested_git_repository"
+  },
+  "main_git_status": "## No commits yet on master\n?? .openclaw/\n?? AGENTS.md\n?? BOOTSTRAP.md\n?? HEARTBEAT.md\n?? IDENTITY.md\n?? SOUL.md\n?? TOOLS.md\n?? USER.md",
+  "main_manifest_paths": [],
+  "manifest_includes_main": false,
+  "ok": true,
+  "schema": "ogk.v1_1.main_governance_boundary.v1"
+}
