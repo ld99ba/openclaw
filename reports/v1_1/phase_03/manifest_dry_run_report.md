@@ -1,7 +1,7 @@
 # V1.1 Phase 03 Manifest Dry Run
 
 Status: PASS
-Manifest paths: 160
+Manifest paths: 167
 Missing paths: 0
 Forbidden paths: 0
 Git staging executed: False
@@ -30,6 +30,7 @@ Git staging executed: False
 | docs/plans/2026-07-09-ogk-final-v1-1-phase-18-implementation-plan.md |
 | docs/plans/2026-07-10-ogk-final-v1-1-phase-19-implementation-plan.md |
 | docs/plans/2026-07-10-ogk-final-v1-1-phase-20-implementation-plan.md |
+| docs/plans/2026-07-10-ogk-final-v1-1-phase-21-implementation-plan.md |
 | openclaw/__init__.py |
 | openclaw/evidence/__init__.py |
 | openclaw/execution/__init__.py |
@@ -115,6 +116,10 @@ Git staging executed: False
 | reports/v1_1/phase_20/RELEASE_CLOSURE_PACKET.md |
 | reports/v1_1/phase_20/release_closure_packet_report.md |
 | reports/v1_1/phase_20/release_closure_packet_result.json |
+| reports/v1_1/phase_21/PHASE_21_SUMMARY.md |
+| reports/v1_1/phase_21/PR_MERGE_DECISION_PACKET.md |
+| reports/v1_1/phase_21/pr_merge_decision_gate_report.md |
+| reports/v1_1/phase_21/pr_merge_decision_gate_result.json |
 | tests/v1_1/test_artifact_registry_hash_verifier.py |
 | tests/v1_1/test_eventledger_replay_verifier.py |
 | tests/v1_1/test_gitignore_hygiene.py |
@@ -123,6 +128,7 @@ Git staging executed: False
 | tests/v1_1/test_memory_skill_lifecycle.py |
 | tests/v1_1/test_policy_engine_permissions.py |
 | tests/v1_1/test_post_publication_audit.py |
+| tests/v1_1/test_pr_merge_decision_gate.py |
 | tests/v1_1/test_publication_target_refresh.py |
 | tests/v1_1/test_recovery_boundaries.py |
 | tests/v1_1/test_release_closure_packet.py |
@@ -161,6 +167,7 @@ Git staging executed: False
 | tools/verify_v1_1_gitignore_hygiene.py |
 | tools/verify_v1_1_manifest_dry_run.py |
 | tools/verify_v1_1_post_publication_audit.py |
+| tools/verify_v1_1_pr_merge_decision_gate.py |
 | tools/verify_v1_1_publication_target_refresh.py |
 | tools/verify_v1_1_release_publication_approval_gate.py |
 | tools/verify_v1_1_release_readiness_gate.py |
