@@ -27,7 +27,7 @@ def _write_report(output_dir: Path, result: dict[str, Any]) -> None:
         f"Final Status: {result.get('final_status')}",
         f"Release Status: {result.get('release_status')}",
         f"Accepted Phases: {', '.join(result.get('accepted_phases', []))}",
-        f"Failure Reason: {result.get('failure_reason', '')}",
+        f"Failure Reason: {result.get('failure_reason') or 'none'}",
         "",
     ]
     (output_dir / "eventledger_replay_report.md").write_text("\n".join(lines), encoding="utf-8")
