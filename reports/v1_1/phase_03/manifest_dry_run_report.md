@@ -1,7 +1,7 @@
 # V1.1 Phase 03 Manifest Dry Run
 
 Status: PASS
-Manifest paths: 167
+Manifest paths: 180
 Missing paths: 0
 Forbidden paths: 0
 Git staging executed: False
@@ -33,14 +33,27 @@ Git staging executed: False
 | docs/plans/2026-07-10-ogk-final-v1-1-phase-21-implementation-plan.md |
 | openclaw/__init__.py |
 | openclaw/evidence/__init__.py |
+| openclaw/evidence/artifact_registry.py |
+| openclaw/evidence/event_ledger.py |
+| openclaw/evidence/replay_engine.py |
 | openclaw/execution/__init__.py |
+| openclaw/execution/repair_engine.py |
+| openclaw/execution/tool_gateway.py |
 | openclaw/governance/__init__.py |
+| openclaw/governance/policy_engine.py |
 | openclaw/governance/project_spec.json |
+| openclaw/governance/state_machine.py |
+| openclaw/governance/supervisor.py |
 | openclaw/hermes_adapter/__init__.py |
 | openclaw/hermes_adapter/__main__.py |
+| openclaw/hermes_adapter/behavior_equivalence.py |
 | openclaw/intelligence/__init__.py |
+| openclaw/intelligence/memory_lifecycle.py |
+| openclaw/intelligence/skill_lifecycle.py |
 | openclaw/policies/policy.json |
 | openclaw/recovery/__init__.py |
+| openclaw/recovery/error_taxonomy.py |
+| openclaw/recovery/resume_protocol.py |
 | reports/v1_1/phase_01/PHASE_01_SUMMARY.md |
 | reports/v1_1/phase_01/artifact_hash_report.md |
 | reports/v1_1/phase_01/artifact_hash_result.json |
