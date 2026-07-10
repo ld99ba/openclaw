@@ -39,6 +39,7 @@ REQUIRED_STATIC_PATHS = [
     "docs/plans/2026-07-10-ogk-final-v1-1-phase-19-implementation-plan.md",
     "docs/plans/2026-07-10-ogk-final-v1-1-phase-20-implementation-plan.md",
     "docs/plans/2026-07-10-ogk-final-v1-1-phase-21-implementation-plan.md",
+    "docs/plans/2026-07-10-ogk-final-v1-1-phase-22-implementation-plan.md",
     "openclaw/__init__.py",
     "openclaw/evidence/__init__.py",
     "openclaw/evidence/artifact_registry.py",
@@ -68,6 +69,7 @@ REQUIRED_STATIC_PATHS = [
     "tools/verify_v1_1_publication_target_refresh.py",
     "tools/verify_v1_1_post_publication_audit.py",
     "tools/verify_v1_1_pr_merge_decision_gate.py",
+    "tools/record_v1_1_pr_creation_execution.py",
     "tools/verify_eventledger_replay.py",
     "tools/verify_artifact_registry_hashes.py",
     "tools/verify_recovery_boundaries.py",
@@ -158,6 +160,10 @@ REQUIRED_STATIC_PATHS = [
     "reports/v1_1/phase_21/PR_MERGE_DECISION_PACKET.md",
     "reports/v1_1/phase_21/pr_merge_decision_gate_report.md",
     "reports/v1_1/phase_21/pr_merge_decision_gate_result.json",
+    "reports/v1_1/phase_22/PHASE_22_SUMMARY.md",
+    "reports/v1_1/phase_22/PR_CREATION_EXECUTION_PACKET.md",
+    "reports/v1_1/phase_22/pr_creation_execution_report.md",
+    "reports/v1_1/phase_22/pr_creation_execution_result.json",
 ]
 
 
