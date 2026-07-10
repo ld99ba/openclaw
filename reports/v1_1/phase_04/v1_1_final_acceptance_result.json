@@ -1,0 +1,35 @@
+{
+  "derived_from_evidence": true,
+  "evidence_ok": {
+    "reports/v1_1/phase_01/artifact_hash_result.json": true,
+    "reports/v1_1/phase_01/eventledger_replay_result.json": true,
+    "reports/v1_1/phase_02/hermes_behavior_matrix_result.json": true,
+    "reports/v1_1/phase_02/memory_skill_lifecycle_result.json": true,
+    "reports/v1_1/phase_02/recovery_boundaries_result.json": true,
+    "reports/v1_1/phase_03/manifest_dry_run_result.json": true,
+    "reports/v1_1/phase_03/workspace_inventory_result.json": true,
+    "reports/v1_1/phase_04/main_governance_result.json": true,
+    "reports/v1_1/phase_04/supervisor_stability_result.json": true
+  },
+  "failures": [],
+  "final_status": "FINAL_SUCCESS",
+  "github_release_present": true,
+  "github_release_url": "https://github.com/ld99ba/openclaw/releases/tag/ogk-final-v1.1",
+  "local_head": "2a4a97fa64b8e934e163307ca50bcebec6d7e7b2",
+  "local_tag": "ogk-final-v1.1",
+  "local_tag_present": true,
+  "local_tag_target": "2a4a97fa64b8e934e163307ca50bcebec6d7e7b2",
+  "manual_final_status_written": false,
+  "ok": true,
+  "phase_04_summary_pending": false,
+  "phase_status": {
+    "phase_01": "PASS",
+    "phase_02": "PASS",
+    "phase_03": "PASS",
+    "phase_04": "PASS"
+  },
+  "release_status": "RELEASE_ACCEPTED",
+  "schema": "ogk.v1_1.final_acceptance.v1",
+  "tag_points_to_current_head": true,
+  "tag_points_to_current_head_required": false
+}

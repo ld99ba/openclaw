@@ -1,0 +1,156 @@
+{
+  "blocking_issue_count": 0,
+  "candidate_count": 10,
+  "destructive_action_taken": false,
+  "explicit_approval_required_before_stage": true,
+  "files_moved_or_deleted": false,
+  "git_stage_executed": false,
+  "ok": true,
+  "preflight": [
+    {
+      "already_tracked": false,
+      "blocking_issues": [],
+      "exists": true,
+      "module_docstring": "OpenClaw Governance Kernel package.",
+      "path": "openclaw/__init__.py",
+      "python_syntax_ok": true,
+      "root_policy_shadow": false,
+      "syntax_error": null,
+      "top_level_call_count": 0,
+      "top_level_print_call": false,
+      "warnings": []
+    },
+    {
+      "already_tracked": false,
+      "blocking_issues": [],
+      "exists": true,
+      "module_docstring": "OGK evidence plane.",
+      "path": "openclaw/evidence/__init__.py",
+      "python_syntax_ok": true,
+      "root_policy_shadow": false,
+      "syntax_error": null,
+      "top_level_call_count": 0,
+      "top_level_print_call": false,
+      "warnings": []
+    },
+    {
+      "already_tracked": false,
+      "blocking_issues": [],
+      "exists": true,
+      "module_docstring": "OGK execution plane.",
+      "path": "openclaw/execution/__init__.py",
+      "python_syntax_ok": true,
+      "root_policy_shadow": false,
+      "syntax_error": null,
+      "top_level_call_count": 0,
+      "top_level_print_call": false,
+      "warnings": []
+    },
+    {
+      "already_tracked": false,
+      "blocking_issues": [],
+      "exists": true,
+      "module_docstring": "OGK governance plane.",
+      "path": "openclaw/governance/__init__.py",
+      "python_syntax_ok": true,
+      "root_policy_shadow": false,
+      "syntax_error": null,
+      "top_level_call_count": 0,
+      "top_level_print_call": false,
+      "warnings": []
+    },
+    {
+      "already_tracked": false,
+      "blocking_issues": [],
+      "exists": true,
+      "json_error": null,
+      "json_parse_ok": true,
+      "json_top_level_keys": [
+        "hermes_runtime_copy",
+        "phases",
+        "project_id",
+        "runtime_policy",
+        "source_architecture",
+        "version"
+      ],
+      "path": "openclaw/governance/project_spec.json",
+      "root_policy_shadow": false,
+      "warnings": [
+        "project_spec_version_requires_owner_confirmation"
+      ]
+    },
+    {
+      "already_tracked": false,
+      "blocking_issues": [],
+      "exists": true,
+      "module_docstring": "OGK hermes_adapter plane.",
+      "path": "openclaw/hermes_adapter/__init__.py",
+      "python_syntax_ok": true,
+      "root_policy_shadow": false,
+      "syntax_error": null,
+      "top_level_call_count": 0,
+      "top_level_print_call": false,
+      "warnings": []
+    },
+    {
+      "already_tracked": false,
+      "blocking_issues": [],
+      "exists": true,
+      "module_docstring": null,
+      "path": "openclaw/hermes_adapter/__main__.py",
+      "python_syntax_ok": true,
+      "root_policy_shadow": false,
+      "syntax_error": null,
+      "top_level_call_count": 1,
+      "top_level_print_call": true,
+      "warnings": [
+        "entrypoint_has_top_level_print_call"
+      ]
+    },
+    {
+      "already_tracked": false,
+      "blocking_issues": [],
+      "exists": true,
+      "module_docstring": "OGK intelligence plane.",
+      "path": "openclaw/intelligence/__init__.py",
+      "python_syntax_ok": true,
+      "root_policy_shadow": false,
+      "syntax_error": null,
+      "top_level_call_count": 0,
+      "top_level_print_call": false,
+      "warnings": []
+    },
+    {
+      "already_tracked": false,
+      "blocking_issues": [],
+      "exists": true,
+      "json_error": null,
+      "json_parse_ok": true,
+      "json_top_level_keys": [
+        "repair_levels",
+        "tool_risk_levels",
+        "version"
+      ],
+      "path": "openclaw/policies/policy.json",
+      "root_policy_shadow": false,
+      "warnings": [
+        "runtime_policy_config_requires_owner_confirmation"
+      ]
+    },
+    {
+      "already_tracked": false,
+      "blocking_issues": [],
+      "exists": true,
+      "module_docstring": "OGK recovery plane.",
+      "path": "openclaw/recovery/__init__.py",
+      "python_syntax_ok": true,
+      "root_policy_shadow": false,
+      "syntax_error": null,
+      "top_level_call_count": 0,
+      "top_level_print_call": false,
+      "warnings": []
+    }
+  ],
+  "schema": "ogk.v1_1.source_inclusion_preflight.v1",
+  "warning_count": 3
+}

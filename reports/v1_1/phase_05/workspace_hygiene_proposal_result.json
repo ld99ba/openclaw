@@ -1,0 +1,189 @@
+{
+  "archive_plan": [
+    {
+      "approval_required_before_move_or_delete": false,
+      "category": "generated_cache",
+      "recommendation": "ignore and regenerate on demand"
+    },
+    {
+      "approval_required_before_move_or_delete": true,
+      "category": "local_control_or_hidden_state",
+      "recommendation": "ignore runtime-local state; preserve on disk"
+    },
+    {
+      "approval_required_before_move_or_delete": true,
+      "category": "historical_report_or_runtime_evidence",
+      "recommendation": "keep out of V1.1 manifests; archive only after dedicated evidence review"
+    },
+    {
+      "approval_required_before_move_or_delete": true,
+      "category": "unknown_review_required",
+      "recommendation": "do not ignore or archive automatically; require owner review"
+    },
+    {
+      "approval_required_before_move_or_delete": true,
+      "category": "v1_0_baseline_preserve",
+      "recommendation": "preserve as baseline evidence; do not ignore broadly"
+    }
+  ],
+  "category_counts": {
+    "generated_cache": 383,
+    "historical_report_or_runtime_evidence": 9925,
+    "local_control_or_hidden_state": 796,
+    "unknown_review_required": 9246,
+    "v1_0_baseline_preserve": 9,
+    "v1_1_release_candidate": 7
+  },
+  "category_samples": {
+    "generated_cache": [
+      "memory/xiaolongxia/code_proposals/proposal_0f7bd4d2fa89/__pycache__/frontier_capabilities.cpython-312.pyc",
+      "memory/xiaolongxia/code_proposals/proposal_0f7bd4d2fa89/__pycache__/test_frontier_capabilities.cpython-312.pyc",
+      "memory/xiaolongxia/code_proposals/proposal_14b2d4fcd181/__pycache__/frontier_capabilities.cpython-312.pyc",
+      "memory/xiaolongxia/code_proposals/proposal_4e75b1425762/__pycache__/frontier_capabilities.cpython-312.pyc",
+      "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/results.json",
+      "openclaw/__pycache__/__init__.cpython-312.pyc",
+      "openclaw/evidence/__pycache__/__init__.cpython-312.pyc",
+      "openclaw/evidence/__pycache__/artifact_registry.cpython-312.pyc",
+      "openclaw/evidence/__pycache__/dashboard_exporter.cpython-312.pyc",
+      "openclaw/evidence/__pycache__/event_ledger.cpython-312.pyc",
+      "openclaw/evidence/__pycache__/replay_engine.cpython-312.pyc",
+      "openclaw/execution/__pycache__/__init__.cpython-312.pyc",
+      "openclaw/execution/__pycache__/repair_engine.cpython-312.pyc",
+      "openclaw/execution/__pycache__/sandbox_executor.cpython-312.pyc",
+      "openclaw/execution/__pycache__/tool_gateway.cpython-312.pyc",
+      "openclaw/execution/__pycache__/worker_orchestrator.cpython-312.pyc",
+      "openclaw/governance/__pycache__/__init__.cpython-312.pyc",
+      "openclaw/governance/__pycache__/final_seal.cpython-312.pyc",
+      "openclaw/governance/__pycache__/issue_register.cpython-312.pyc",
+      "openclaw/governance/__pycache__/policy_engine.cpython-312.pyc"
+    ],
+    "historical_report_or_runtime_evidence": [
+      "reports/.archive/hermes-empty-report-artifact/reports/hermes-archive-protection-execute-next-backlog-validate-2026-06-24-195500.stderr.log",
+      "reports/.archive/hermes-empty-report-artifact/reports/hermes-artifact-index-cleanup-protection-next-backlog-2026-06-24-220722.stderr.log",
+      "reports/.archive/hermes-empty-report-artifact/reports/hermes-artifact-index-cleanup-protection-next-backlog-2026-06-24-221151.stderr.log",
+      "reports/.archive/hermes-empty-report-artifact/reports/hermes-artifact-index-cleanup-protection-pycompile-2026-06-24-220722.log",
+      "reports/.archive/hermes-empty-report-artifact/reports/hermes-artifact-index-cleanup-protection-pycompile-2026-06-24-221151.log",
+      "reports/.archive/hermes-empty-report-artifact/reports/hermes-auto-continue-policy-guard-evidence-pycompile-2026-06-24-212740.log",
+      "reports/.archive/hermes-empty-report-artifact/reports/hermes-auto-continue-policy-guard-next-backlog-validate-2026-06-24-212740.stderr.log",
+      "reports/.archive/hermes-empty-report-artifact/reports/hermes-auto-continue-policy-guard-validation-2026-06-24-212740.stderr.log",
+      "reports/.archive/hermes-empty-report-artifact/reports/hermes-migrate-dry-run-timeout-pycompile-2026-06-25-002731.log",
+      "reports/.archive/hermes-empty-report-artifact/reports/hermes-migrate-live-dry-run-timeout-validation-2026-06-25-002731.stderr.log",
+      "reports/.archive/hermes-empty-report-artifact/reports/hermes-next-backlog-review-v2-pycompile-2026-06-24-232553.log",
+      "reports/.archive/hermes-empty-report-artifact/reports/hermes-progress-gate-nested-score-fix-2026-06-25-024013-unittest.log",
+      "reports/.archive/hermes-empty-report-artifact/reports/hermes-progress-gate-nested-score-fix-2026-06-25-024055-refresh.log",
+      "reports/.archive/hermes-empty-report-artifact/reports/hermes-progress-gate-nested-score-fix-2026-06-25-024055-unittest.log",
+      "reports/.archive/hermes-empty-report-artifact/reports/hermes-progress-gate-nested-score-fix-2026-06-25-024316-pycompile.log",
+      "reports/.archive/hermes-empty-report-artifact/reports/hermes-progress-gate-nested-score-fix-2026-06-25-024316-refresh.log",
+      "reports/.archive/hermes-empty-report-artifact/reports/hermes-refresh-migrate-dry-run-pycompile-2026-06-25-010136.log",
+      "reports/.archive/hermes-empty-report-artifact/reports/hermes-refresh-migrate-dry-run-run-2026-06-25-010136.log",
+      "reports/.archive/hermes-empty-report-artifact/reports/hermes-review-v2-next-backlog-validate-2026-06-24-233046.stderr.log",
+      "reports/.archive/hermes-empty-report-artifact/reports/hermes-review-v2-pycompile-2026-06-24-232927.log"
+    ],
+    "local_control_or_hidden_state": [
+      ".clawhub/lock.json",
+      ".forge/candidates.jsonl",
+      ".forge/captures.jsonl",
+      ".forge/filtered-candidates.jsonl",
+      ".forge/notifications.jsonl",
+      ".forge/patterns.jsonl",
+      ".forge/session-history.json",
+      ".forge/skill-health.jsonl",
+      ".hermes-auto.lock.stale-20260624-132341",
+      ".learnings/ERRORS.md",
+      ".learnings/FEATURE_REQUESTS.md",
+      ".learnings/LEARNINGS.md",
+      ".locks/archive/hermes-24h-auto.lock.stale.20260625-205250/acquired_at",
+      ".locks/archive/hermes-24h-auto.lock.stale.20260625-205250/pid",
+      ".locks/hermes-24h-auto-landing.lock/job",
+      ".locks/hermes-24h-auto-landing.lock/started_at",
+      ".locks/hermes-24h-auto-worker.lock/pid",
+      ".locks/hermes-24h-auto-worker.lock/started_at",
+      ".locks/hermes-24h-auto-worker.stale-2026-06-26-182309/pid",
+      ".locks/hermes-24h-auto-worker.stale-2026-06-26-182309/sentinel_started_at"
+    ],
+    "unknown_review_required": [
+      "03_tasks/HERMES_AUTO_PROGRESS_MASTER_PLAN.md",
+      "03_tasks/hermes_auto_progress_status.json",
+      "10_release/HERMES_FINAL_ACCEPTANCE_REPORT.md",
+      "10_release/HERMES_FINAL_AUDIT_REPORT.md",
+      "10_release/HERMES_FINAL_PROGRESS_SUMMARY.md",
+      "10_release/HERMES_OPENCLAW_FILE_INDEX.md",
+      "10_release/HERMES_OPENCLAW_FUNCTION_MAPPING_AUDIT.md",
+      "10_release/HERMES_OPENCLAW_FUSION_HANDOFF.md",
+      "10_release/HERMES_OPENCLAW_REVIEW_GUIDE.md",
+      "10_release/HERMES_OPENCLAW_RISK_AND_ISSUE_LIST.md",
+      "10_release/HERMES_RELEASE_ARTIFACT_INDEX.md",
+      "10_release/OPENCLAW_GOVERNANCE_KERNEL_FINAL.md",
+      "10_release/OpenClaw Governance Kernel Final Architecture.docx",
+      "10_release/OpenClaw Governance Kernel Final Architecture.docx:Zone.Identifier",
+      "11_logs/hermes_auto_progress_audit_log.md",
+      "11_logs/hermes_auto_progress_plan_log.md",
+      "11_logs/hermes_auto_progress_resume_log.md",
+      "11_logs/hermes_auto_progress_run_log.md",
+      "11_logs/hermes_auto_progress_scheduler_change_log.md",
+      "11_logs/hermes_openclaw_handoff_doc_generation_log.md"
+    ],
+    "v1_0_baseline_preserve": [
+      "reports/final/OGK_FINAL_HANDOFF_DOC_GENERATION_LOG.md",
+      "reports/final/OGK_FINAL_V1_0_PROJECT_HANDOFF_FOR_CHATGPT.md",
+      "reports/final/OGK_FINAL_V1_0_UPLOAD_PACKAGE_INDEX.md",
+      "reports/final/OGK_FINAL_V1_1_STARTING_POINT.md",
+      "reports/final/OPENCLAW_GIT_RELEASE_SUMMARY.md",
+      "reports/final/artifact_registry.json",
+      "reports/final/openclaw_governance_dashboard.json",
+      "reports/final/openclaw_hermes_fusion_issue_register.json",
+      "reports/final/resume_state_rebuild.json"
+    ],
+    "v1_1_release_candidate": [
+      "docs/plans/2026-07-09-ogk-final-v1-1-phase-05-implementation-plan.md",
+      "reports/v1_1/phase_01/.gitkeep",
+      "reports/v1_1/phase_05/PHASE_05_SUMMARY.md",
+      "reports/v1_1/phase_05/workspace_hygiene_proposal_report.md",
+      "reports/v1_1/phase_05/workspace_hygiene_proposal_result.json",
+      "tests/v1_1/.gitkeep",
+      "tests/v1_1/test_workspace_hygiene_proposal.py"
+    ]
+  },
+  "destructive_action_taken": false,
+  "direct_file_mutation_taken": false,
+  "forbidden_auto_ignore_patterns": [
+    "reports/**",
+    "reports/final/**",
+    "reports/v1_1/**",
+    "docs/**",
+    "tools/**",
+    "tests/**",
+    "openclaw/**"
+  ],
+  "forbidden_hits": [],
+  "git_stage_executed": false,
+  "gitignore_updated": false,
+  "main_boundary": {
+    "path": "main",
+    "recommendation": "keep excluded until explicit governance approval; do not force-add into V1.1",
+    "status": "nested_git_repository"
+  },
+  "ok": true,
+  "safe_gitignore_additions": [
+    "__pycache__/",
+    "*.py[cod]",
+    ".pytest_cache/",
+    "node_modules/",
+    ".pw-browsers/",
+    ".clawhub/",
+    ".forge/",
+    ".locks/",
+    ".openclaw-locks/",
+    ".openclaw/",
+    ".mx-claw-workspace/",
+    ".learnings/",
+    "reports/.archive/",
+    "reports/.backup/",
+    "reports/.locks/",
+    "reports/.rollback/",
+    "reports/.hermes-*.lock*",
+    ".hermes-*.lock*"
+  ],
+  "schema": "ogk.v1_1.workspace_hygiene_proposal.v1",
+  "untracked_count": 20366
+}

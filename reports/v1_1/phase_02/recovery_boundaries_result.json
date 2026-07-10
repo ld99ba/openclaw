@@ -1,0 +1,95 @@
+{
+  "case_count": 8,
+  "ok": true,
+  "results": [
+    {
+      "assessment": {
+        "auto_repair_allowed": true,
+        "class": "rate_limit",
+        "recovery": "backoff",
+        "repair_level": "R1",
+        "requires_human_authorization": false
+      },
+      "name": "rate_limit_backoff",
+      "passed": true
+    },
+    {
+      "assessment": {
+        "auto_repair_allowed": true,
+        "class": "timeout",
+        "recovery": "retry_or_lighten_context",
+        "repair_level": "R1",
+        "requires_human_authorization": false
+      },
+      "name": "timeout_retry",
+      "passed": true
+    },
+    {
+      "assessment": {
+        "auto_repair_allowed": true,
+        "class": "model_not_found",
+        "recovery": "fallback_model",
+        "repair_level": "R2",
+        "requires_human_authorization": false
+      },
+      "name": "model_fallback",
+      "passed": true
+    },
+    {
+      "assessment": {
+        "auto_repair_allowed": false,
+        "class": "auth",
+        "recovery": "rotate_or_abort",
+        "repair_level": "R3",
+        "requires_human_authorization": true
+      },
+      "name": "auth_block",
+      "passed": true
+    },
+    {
+      "assessment": {
+        "auto_repair_allowed": false,
+        "class": "destructive_action",
+        "recovery": "human_authorization_required",
+        "repair_level": "R4",
+        "requires_human_authorization": true
+      },
+      "name": "destructive_block",
+      "passed": true
+    },
+    {
+      "assessment": {
+        "auto_repair_allowed": false,
+        "class": "timeout",
+        "recovery": "retry_or_lighten_context",
+        "repair_level": "R1",
+        "requires_human_authorization": true
+      },
+      "name": "secret_boundary",
+      "passed": true
+    },
+    {
+      "assessment": {
+        "auto_repair_allowed": false,
+        "class": "timeout",
+        "recovery": "retry_or_lighten_context",
+        "repair_level": "R1",
+        "requires_human_authorization": true
+      },
+      "name": "external_boundary",
+      "passed": true
+    },
+    {
+      "assessment": {
+        "auto_repair_allowed": false,
+        "class": "timeout",
+        "recovery": "retry_or_lighten_context",
+        "repair_level": "R1",
+        "requires_human_authorization": true
+      },
+      "name": "core_runtime_boundary",
+      "passed": true
+    }
+  ],
+  "schema": "ogk.v1_1.recovery_boundaries.v1"
+}

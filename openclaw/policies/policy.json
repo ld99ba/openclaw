@@ -1,0 +1,23 @@
+{
+  "version": "OGK-Final-1.0",
+  "tool_risk_levels": [
+    "SAFE_READ",
+    "SAFE_WRITE",
+    "CHECK",
+    "METADATA_REPAIR",
+    "CONFIG_REPAIR",
+    "CODE_REPAIR",
+    "DANGEROUS_WRITE",
+    "DESTRUCTIVE",
+    "EXTERNAL_SIDE_EFFECT",
+    "SECRET_ACCESS"
+  ],
+  "repair_levels": {
+    "R0": "auto",
+    "R1": "auto",
+    "R2": "auto",
+    "R3": "policy_required",
+    "R4": "independent_phase",
+    "R5": "forbidden"
+  }
+}

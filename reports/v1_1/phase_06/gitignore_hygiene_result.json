@@ -1,0 +1,40 @@
+{
+  "destructive_action_taken": false,
+  "files_moved_or_deleted": false,
+  "forbidden_patterns_present": [],
+  "gitignore_updated": true,
+  "ignored_sample_failures": [],
+  "ignored_sample_results": {
+    ".clawhub/lock.json": true,
+    ".forge/candidates.jsonl": true,
+    ".hermes-auto.lock.stale-20260624-132341": true,
+    ".learnings/index.json": true,
+    ".locks/runtime.lock": true,
+    ".mx-claw-workspace/session.json": true,
+    ".openclaw-locks/runtime.lock": true,
+    ".openclaw/local-state.json": true,
+    ".pw-browsers/chromium/cache.txt": true,
+    ".pytest_cache/v/cache/nodeids": true,
+    "__pycache__/module.cpython-312.pyc": true,
+    "node_modules/pkg/index.js": true,
+    "pkg/__pycache__/module.cpython-312.pyc": true,
+    "reports/.archive/old-evidence.json": true,
+    "reports/.backup/old-evidence.json": true,
+    "reports/.hermes-example.lock": true,
+    "reports/.locks/report.lock": true,
+    "reports/.rollback/rollback.json": true
+  },
+  "missing_required_patterns": [],
+  "ok": true,
+  "protected_sample_failures": [],
+  "protected_sample_results": {
+    "docs/plans/2026-07-09-ogk-final-v1-1-phase-06-implementation-plan.md": false,
+    "openclaw/governance/supervisor.py": false,
+    "reports/final/current_state.json": false,
+    "reports/v1_1/phase_06/PHASE_06_SUMMARY.md": false,
+    "tests/v1_1/test_gitignore_hygiene.py": false,
+    "tools/verify_v1_1_gitignore_hygiene.py": false
+  },
+  "required_pattern_count": 18,
+  "schema": "ogk.v1_1.gitignore_hygiene.v1"
+}

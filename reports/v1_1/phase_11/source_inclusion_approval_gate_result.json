@@ -1,0 +1,48 @@
+{
+  "approval_granted": false,
+  "approval_phrase": "批准纳入 Phase 09/10 的 10 个 openclaw 源码候选",
+  "approval_required": true,
+  "blocking_issue_count": 0,
+  "deferred_pathspec": [
+    "policies/cron_governance_policy.yaml",
+    "policies/final_seal_policy.yaml",
+    "policies/memory_skill_policy.yaml",
+    "policies/migration_policy.yaml",
+    "policies/repair_policy.yaml",
+    "policies/tool_permission_policy.yaml"
+  ],
+  "deferred_pathspec_count": 6,
+  "destructive_action_taken": false,
+  "files_moved_or_deleted": false,
+  "git_commit_executed": false,
+  "git_stage_executed": false,
+  "next_stage_pathspec": [
+    "openclaw/__init__.py",
+    "openclaw/evidence/__init__.py",
+    "openclaw/execution/__init__.py",
+    "openclaw/governance/__init__.py",
+    "openclaw/governance/project_spec.json",
+    "openclaw/hermes_adapter/__init__.py",
+    "openclaw/hermes_adapter/__main__.py",
+    "openclaw/intelligence/__init__.py",
+    "openclaw/policies/policy.json",
+    "openclaw/recovery/__init__.py"
+  ],
+  "next_stage_pathspec_count": 10,
+  "ok": true,
+  "recommended_exclusions": [
+    "policies/cron_governance_policy.yaml",
+    "policies/final_seal_policy.yaml",
+    "policies/memory_skill_policy.yaml",
+    "policies/migration_policy.yaml",
+    "policies/repair_policy.yaml",
+    "policies/tool_permission_policy.yaml"
+  ],
+  "schema": "ogk.v1_1.source_inclusion_approval_gate.v1",
+  "warning_count": 3,
+  "warning_paths": [
+    "openclaw/governance/project_spec.json",
+    "openclaw/hermes_adapter/__main__.py",
+    "openclaw/policies/policy.json"
+  ]
+}

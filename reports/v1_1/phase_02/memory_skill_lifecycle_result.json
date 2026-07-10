@@ -1,0 +1,53 @@
+{
+  "memory_invalid": {
+    "missing": [
+      "purpose",
+      "expiry",
+      "audit"
+    ],
+    "ok": false,
+    "rules": {
+      "audit_required": true,
+      "expiry_required": true,
+      "purpose_required": true,
+      "source_required": true
+    }
+  },
+  "memory_valid": {
+    "missing": [],
+    "ok": true,
+    "rules": {
+      "audit_required": true,
+      "expiry_required": true,
+      "purpose_required": true,
+      "source_required": true
+    }
+  },
+  "ok": true,
+  "schema": "ogk.v1_1.memory_skill_lifecycle.v1",
+  "skill_invalid": {
+    "missing": [
+      "tests",
+      "promotion_gate",
+      "rollback",
+      "workshop"
+    ],
+    "ok": false,
+    "rules": {
+      "promotion_gate_required": true,
+      "rollback_required": true,
+      "tests_required": true,
+      "workshop_required": true
+    }
+  },
+  "skill_valid": {
+    "missing": [],
+    "ok": true,
+    "rules": {
+      "promotion_gate_required": true,
+      "rollback_required": true,
+      "tests_required": true,
+      "workshop_required": true
+    }
+  }
+}

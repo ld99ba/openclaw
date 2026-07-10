@@ -1,0 +1,21 @@
+{
+  "accepted_phases": [
+    "PHASE_01",
+    "PHASE_02",
+    "PHASE_03",
+    "PHASE_04",
+    "PHASE_05",
+    "PHASE_06",
+    "PHASE_07"
+  ],
+  "artifact_registry_ok": true,
+  "event_count": 173,
+  "expected_final_status": "FINAL_SUCCESS",
+  "expected_release_status": "RELEASE_ACCEPTED",
+  "failure_reason": "",
+  "final_status": "FINAL_SUCCESS",
+  "ledger_ok": true,
+  "ok": true,
+  "release_status": "RELEASE_ACCEPTED",
+  "schema": "ogk.v1_1.eventledger_replay_result.v1"
+}

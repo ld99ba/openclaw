@@ -1,0 +1,103 @@
+{
+  "category_counts": {
+    "historical_report_or_runtime_evidence": 9831,
+    "local_control_or_hidden_state": 65,
+    "unknown_review_required": 9248,
+    "v1_0_baseline_preserve": 9,
+    "v1_1_release_candidate": 2
+  },
+  "category_samples": {
+    "historical_report_or_runtime_evidence": [
+      "reports/.hermes-current-owner-token",
+      "reports/audits/resume_audit.md",
+      "reports/claude-code-evolution-plan.md",
+      "reports/deep-dives/README.md",
+      "reports/deep-dives/deepdive_agents_2412.md",
+      "reports/deep-dives/deepdive_agents_2505_07078.md",
+      "reports/deep-dives/deepdive_agents_2508_11152.md",
+      "reports/deep-dives/deepdive_agents_2509_09995.md",
+      "reports/deep-dives/deepdive_agents_2510_04787.md",
+      "reports/deep-dives/deepdive_agents_2510_14264.md",
+      "reports/deep-dives/deepdive_agents_2512_02261.md",
+      "reports/deep-dives/deepdive_benchmark_2412.md",
+      "reports/deep-dives/deepdive_benchmark_2510.md",
+      "reports/deep-dives/deepdive_factor_2308.md",
+      "reports/deep-dives/deepdive_factor_2508.md",
+      "reports/deep-dives/deepdive_factor_2511.md",
+      "reports/deep-dives/deepdive_factor_2512.md",
+      "reports/deep-dives/deepdive_factor_2602_07085.md",
+      "reports/deep-dives/deepdive_factor_2602_14670.md",
+      "reports/deep-dives/deepdive_factor_2602_18481.md"
+    ],
+    "local_control_or_hidden_state": [
+      "external/RD-Agent/.bumpversion.cfg",
+      "external/RD-Agent/.commitlintrc.js",
+      "external/RD-Agent/.devcontainer/Dockerfile",
+      "external/RD-Agent/.devcontainer/README.md",
+      "external/RD-Agent/.devcontainer/devcontainer.json",
+      "external/RD-Agent/.devcontainer/env",
+      "external/RD-Agent/.github/FUNDING.yml",
+      "external/RD-Agent/.github/ISSUE_TEMPLATE/bug-report.md",
+      "external/RD-Agent/.github/ISSUE_TEMPLATE/documentation.md",
+      "external/RD-Agent/.github/ISSUE_TEMPLATE/feature-request.md",
+      "external/RD-Agent/.github/ISSUE_TEMPLATE/question.md",
+      "external/RD-Agent/.github/PULL_REQUEST_TEMPLATE.md",
+      "external/RD-Agent/.github/dependabot.yml",
+      "external/RD-Agent/.github/workflows/ci.yml",
+      "external/RD-Agent/.github/workflows/pr.yml",
+      "external/RD-Agent/.github/workflows/readthedocs-preview.yml",
+      "external/RD-Agent/.github/workflows/release.yml",
+      "external/RD-Agent/.gitignore",
+      "external/RD-Agent/.readthedocs.yaml",
+      "external/RD-Agent/.streamlit/config.toml"
+    ],
+    "unknown_review_required": [
+      "03_tasks/HERMES_AUTO_PROGRESS_MASTER_PLAN.md",
+      "03_tasks/hermes_auto_progress_status.json",
+      "10_release/HERMES_FINAL_ACCEPTANCE_REPORT.md",
+      "10_release/HERMES_FINAL_AUDIT_REPORT.md",
+      "10_release/HERMES_FINAL_PROGRESS_SUMMARY.md",
+      "10_release/HERMES_OPENCLAW_FILE_INDEX.md",
+      "10_release/HERMES_OPENCLAW_FUNCTION_MAPPING_AUDIT.md",
+      "10_release/HERMES_OPENCLAW_FUSION_HANDOFF.md",
+      "10_release/HERMES_OPENCLAW_REVIEW_GUIDE.md",
+      "10_release/HERMES_OPENCLAW_RISK_AND_ISSUE_LIST.md",
+      "10_release/HERMES_RELEASE_ARTIFACT_INDEX.md",
+      "10_release/OPENCLAW_GOVERNANCE_KERNEL_FINAL.md",
+      "10_release/OpenClaw Governance Kernel Final Architecture.docx",
+      "10_release/OpenClaw Governance Kernel Final Architecture.docx:Zone.Identifier",
+      "11_logs/hermes_auto_progress_audit_log.md",
+      "11_logs/hermes_auto_progress_plan_log.md",
+      "11_logs/hermes_auto_progress_resume_log.md",
+      "11_logs/hermes_auto_progress_run_log.md",
+      "11_logs/hermes_auto_progress_scheduler_change_log.md",
+      "11_logs/hermes_openclaw_handoff_doc_generation_log.md"
+    ],
+    "v1_0_baseline_preserve": [
+      "reports/final/OGK_FINAL_HANDOFF_DOC_GENERATION_LOG.md",
+      "reports/final/OGK_FINAL_V1_0_PROJECT_HANDOFF_FOR_CHATGPT.md",
+      "reports/final/OGK_FINAL_V1_0_UPLOAD_PACKAGE_INDEX.md",
+      "reports/final/OGK_FINAL_V1_1_STARTING_POINT.md",
+      "reports/final/OPENCLAW_GIT_RELEASE_SUMMARY.md",
+      "reports/final/artifact_registry.json",
+      "reports/final/openclaw_governance_dashboard.json",
+      "reports/final/openclaw_hermes_fusion_issue_register.json",
+      "reports/final/resume_state_rebuild.json"
+    ],
+    "v1_1_release_candidate": [
+      "reports/v1_1/phase_01/.gitkeep",
+      "tests/v1_1/.gitkeep"
+    ]
+  },
+  "destructive_action_taken": false,
+  "full_inventory_omitted": true,
+  "full_inventory_omitted_reason": "release evidence records counts and samples only to avoid staging volatile caches and historical path noise",
+  "main_boundary": {
+    "path": "main",
+    "recommendation": "keep excluded until explicit governance approval; do not force-add into V1.1",
+    "status": "nested_git_repository"
+  },
+  "ok": true,
+  "schema": "ogk.v1_1.workspace_inventory.v1",
+  "untracked_count": 19155
+}

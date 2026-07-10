@@ -1,0 +1,199 @@
+{
+  "decision_counts": {
+    "defer_root_policy_shadow_duplicate": 6,
+    "include_entrypoint_after_behavior_review": 1,
+    "include_package_marker_after_approval": 7,
+    "include_runtime_config_after_owner_review": 2
+  },
+  "decisions": [
+    {
+      "decision": "include_package_marker_after_approval",
+      "include_in_next_stage_pathspec": true,
+      "kind": "package_marker",
+      "next_action": "Stage only after explicit approval for source candidate inclusion.",
+      "path": "openclaw/__init__.py",
+      "reason": "Package marker can make the package surface explicit.",
+      "requires_adr_before_inclusion": false,
+      "requires_explicit_approval_before_stage": true
+    },
+    {
+      "decision": "include_package_marker_after_approval",
+      "include_in_next_stage_pathspec": true,
+      "kind": "package_marker",
+      "next_action": "Stage only after explicit approval for source candidate inclusion.",
+      "path": "openclaw/evidence/__init__.py",
+      "reason": "Package marker can make the package surface explicit.",
+      "requires_adr_before_inclusion": false,
+      "requires_explicit_approval_before_stage": true
+    },
+    {
+      "decision": "include_package_marker_after_approval",
+      "include_in_next_stage_pathspec": true,
+      "kind": "package_marker",
+      "next_action": "Stage only after explicit approval for source candidate inclusion.",
+      "path": "openclaw/execution/__init__.py",
+      "reason": "Package marker can make the package surface explicit.",
+      "requires_adr_before_inclusion": false,
+      "requires_explicit_approval_before_stage": true
+    },
+    {
+      "decision": "include_package_marker_after_approval",
+      "include_in_next_stage_pathspec": true,
+      "kind": "package_marker",
+      "next_action": "Stage only after explicit approval for source candidate inclusion.",
+      "path": "openclaw/governance/__init__.py",
+      "reason": "Package marker can make the package surface explicit.",
+      "requires_adr_before_inclusion": false,
+      "requires_explicit_approval_before_stage": true
+    },
+    {
+      "decision": "include_runtime_config_after_owner_review",
+      "include_in_next_stage_pathspec": true,
+      "kind": "runtime_json_config",
+      "next_action": "Stage only after explicit approval for source candidate inclusion.",
+      "path": "openclaw/governance/project_spec.json",
+      "reason": "Runtime config needs ownership confirmation before inclusion.",
+      "requires_adr_before_inclusion": false,
+      "requires_explicit_approval_before_stage": true
+    },
+    {
+      "decision": "include_package_marker_after_approval",
+      "include_in_next_stage_pathspec": true,
+      "kind": "package_marker",
+      "next_action": "Stage only after explicit approval for source candidate inclusion.",
+      "path": "openclaw/hermes_adapter/__init__.py",
+      "reason": "Package marker can make the package surface explicit.",
+      "requires_adr_before_inclusion": false,
+      "requires_explicit_approval_before_stage": true
+    },
+    {
+      "decision": "include_entrypoint_after_behavior_review",
+      "include_in_next_stage_pathspec": true,
+      "kind": "package_entrypoint",
+      "next_action": "Stage only after explicit approval for source candidate inclusion.",
+      "path": "openclaw/hermes_adapter/__main__.py",
+      "reason": "Package entrypoint changes CLI execution surface and needs behavior review.",
+      "requires_adr_before_inclusion": false,
+      "requires_explicit_approval_before_stage": true
+    },
+    {
+      "decision": "include_package_marker_after_approval",
+      "include_in_next_stage_pathspec": true,
+      "kind": "package_marker",
+      "next_action": "Stage only after explicit approval for source candidate inclusion.",
+      "path": "openclaw/intelligence/__init__.py",
+      "reason": "Package marker can make the package surface explicit.",
+      "requires_adr_before_inclusion": false,
+      "requires_explicit_approval_before_stage": true
+    },
+    {
+      "decision": "include_runtime_config_after_owner_review",
+      "include_in_next_stage_pathspec": true,
+      "kind": "package_policy_config",
+      "next_action": "Stage only after explicit approval for source candidate inclusion.",
+      "path": "openclaw/policies/policy.json",
+      "reason": "Runtime config needs ownership confirmation before inclusion.",
+      "requires_adr_before_inclusion": false,
+      "requires_explicit_approval_before_stage": true
+    },
+    {
+      "decision": "include_package_marker_after_approval",
+      "include_in_next_stage_pathspec": true,
+      "kind": "package_marker",
+      "next_action": "Stage only after explicit approval for source candidate inclusion.",
+      "path": "openclaw/recovery/__init__.py",
+      "reason": "Package marker can make the package surface explicit.",
+      "requires_adr_before_inclusion": false,
+      "requires_explicit_approval_before_stage": true
+    },
+    {
+      "decision": "defer_root_policy_shadow_duplicate",
+      "include_in_next_stage_pathspec": false,
+      "kind": "root_policy_shadow",
+      "next_action": "Keep unstaged unless an ADR approves root-level policy ownership.",
+      "path": "policies/cron_governance_policy.yaml",
+      "reason": "Root policy shadow matches the tracked package policy counterpart.",
+      "requires_adr_before_inclusion": true,
+      "requires_explicit_approval_before_stage": true
+    },
+    {
+      "decision": "defer_root_policy_shadow_duplicate",
+      "include_in_next_stage_pathspec": false,
+      "kind": "root_policy_shadow",
+      "next_action": "Keep unstaged unless an ADR approves root-level policy ownership.",
+      "path": "policies/final_seal_policy.yaml",
+      "reason": "Root policy shadow matches the tracked package policy counterpart.",
+      "requires_adr_before_inclusion": true,
+      "requires_explicit_approval_before_stage": true
+    },
+    {
+      "decision": "defer_root_policy_shadow_duplicate",
+      "include_in_next_stage_pathspec": false,
+      "kind": "root_policy_shadow",
+      "next_action": "Keep unstaged unless an ADR approves root-level policy ownership.",
+      "path": "policies/memory_skill_policy.yaml",
+      "reason": "Root policy shadow matches the tracked package policy counterpart.",
+      "requires_adr_before_inclusion": true,
+      "requires_explicit_approval_before_stage": true
+    },
+    {
+      "decision": "defer_root_policy_shadow_duplicate",
+      "include_in_next_stage_pathspec": false,
+      "kind": "root_policy_shadow",
+      "next_action": "Keep unstaged unless an ADR approves root-level policy ownership.",
+      "path": "policies/migration_policy.yaml",
+      "reason": "Root policy shadow matches the tracked package policy counterpart.",
+      "requires_adr_before_inclusion": true,
+      "requires_explicit_approval_before_stage": true
+    },
+    {
+      "decision": "defer_root_policy_shadow_duplicate",
+      "include_in_next_stage_pathspec": false,
+      "kind": "root_policy_shadow",
+      "next_action": "Keep unstaged unless an ADR approves root-level policy ownership.",
+      "path": "policies/repair_policy.yaml",
+      "reason": "Root policy shadow matches the tracked package policy counterpart.",
+      "requires_adr_before_inclusion": true,
+      "requires_explicit_approval_before_stage": true
+    },
+    {
+      "decision": "defer_root_policy_shadow_duplicate",
+      "include_in_next_stage_pathspec": false,
+      "kind": "root_policy_shadow",
+      "next_action": "Keep unstaged unless an ADR approves root-level policy ownership.",
+      "path": "policies/tool_permission_policy.yaml",
+      "reason": "Root policy shadow matches the tracked package policy counterpart.",
+      "requires_adr_before_inclusion": true,
+      "requires_explicit_approval_before_stage": true
+    }
+  ],
+  "deferred_pathspec": [
+    "policies/cron_governance_policy.yaml",
+    "policies/final_seal_policy.yaml",
+    "policies/memory_skill_policy.yaml",
+    "policies/migration_policy.yaml",
+    "policies/repair_policy.yaml",
+    "policies/tool_permission_policy.yaml"
+  ],
+  "deferred_pathspec_count": 6,
+  "destructive_action_taken": false,
+  "explicit_approval_required_before_stage": true,
+  "files_moved_or_deleted": false,
+  "git_stage_executed": false,
+  "next_stage_pathspec": [
+    "openclaw/__init__.py",
+    "openclaw/evidence/__init__.py",
+    "openclaw/execution/__init__.py",
+    "openclaw/governance/__init__.py",
+    "openclaw/governance/project_spec.json",
+    "openclaw/hermes_adapter/__init__.py",
+    "openclaw/hermes_adapter/__main__.py",
+    "openclaw/intelligence/__init__.py",
+    "openclaw/policies/policy.json",
+    "openclaw/recovery/__init__.py"
+  ],
+  "next_stage_pathspec_count": 10,
+  "ok": true,
+  "schema": "ogk.v1_1.source_candidate_inclusion_decision.v1",
+  "source_candidate_count": 16
+}

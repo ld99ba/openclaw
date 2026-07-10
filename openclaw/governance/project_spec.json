@@ -1,0 +1,16 @@
+{
+  "project_id": "openclaw_hermes_fusion",
+  "version": "OGK-Final-1.0",
+  "source_architecture": "docs/OPENCLAW_GOVERNANCE_KERNEL_FINAL.md",
+  "phases": [
+    "PHASE_01",
+    "PHASE_02",
+    "PHASE_03",
+    "PHASE_04",
+    "PHASE_05",
+    "PHASE_06",
+    "PHASE_07"
+  ],
+  "runtime_policy": "openclaw_native_runtime_preserved",
+  "hermes_runtime_copy": false
+}
